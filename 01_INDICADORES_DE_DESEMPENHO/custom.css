@@ -1,0 +1,27 @@
+.mt-25{
+    margin-top: 25px;
+}
+
+.titulo-item{
+    padding-top: 3px;
+}
+
+.espera-video {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black !important;
+    color: aliceblue;
+}
+
+.espera-video h2 {
+    margin:auto;
+}
+
+.table-responsive{
+    margin-bottom: 25px;
+}
