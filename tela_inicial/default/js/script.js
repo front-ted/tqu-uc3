@@ -1,4 +1,4 @@
-var uc = "TDSUC12" // aqui vai a sigla do curso e o numero da uc
+var uc = "TQUUC03" // aqui vai a sigla do curso e o numero da uc
 
 $(document).ready(function(){
 
