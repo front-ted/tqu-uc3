@@ -1,0 +1,8 @@
+.citacao{
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+.citacao > p{
+    text-align: justify;
+}
