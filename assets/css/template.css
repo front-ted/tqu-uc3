@@ -57,6 +57,10 @@ body {
     color: #fff;
 }
 
+.subtitulo{
+    padding-left: 30px;
+}
+
 h1 {
     padding: 40px 0;
     text-transform: uppercase;
