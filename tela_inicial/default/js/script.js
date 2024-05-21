@@ -347,3 +347,14 @@ function verificaCompleto(lista){
 		$("div[data-group='"+ lista + "']").removeClass('disabled')
 	}
 }
+
+window.addEventListener('load', function(){
+	$('.imprimir').on('click', function(){
+		let printPage = "print/index.html?conteudo=" + $(this).data('conteudo')
+		if($(this).data('imgpath') != undefined)
+			printPage += "&imgpath=" + $(this).data('imgpath')
+		if($(this).data('startpoint') != undefined)
+			printPage += "&startpoint=" + $(this).data('startpoint')
+		window.open(printPage, '_new')
+	})
+})
