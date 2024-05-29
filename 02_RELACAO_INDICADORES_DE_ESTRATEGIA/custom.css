@@ -43,3 +43,19 @@
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+.modal-estrategico{
+    
+    background-image: url('images/titulo_modal_estrategico.png');
+    background-size: cover;
+}
+
+.modal-tatico{
+    background-image: url('images/titulo_modal_tatico.png');
+    background-size: cover;
+}
+
+.modal-operacional{
+    background-image: url('images/titulo_modal_operacional.png');
+    background-size: cover;
+}
