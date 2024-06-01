@@ -15,15 +15,51 @@
 }
 
 
-.botao-direcionadores{
+.botao-mapa-estrategico{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+}
+
+.botao-mapa-estrategico>button{
+    width: 180px;
+}
+
+.botao-mapa-estrategico::before{
+    display: block;
+    margin-bottom: -13px;
+    z-index: 10;
+}
+
+
+.botao-a-direita{
     margin-left: 100px;
 }
+
+
 .botao-direcionadores::before{
     content: url('images/bt_1.png'); 
-    display: block;
-    margin-bottom: -10px;
+    
+}
+
+.botao-a-esquerda{
+    margin-left: -100px;
+}
+
+.botao-temas::before{
+    content: url('images/bt_2.png'); 
+}
+
+.botao-perspectivas::before{
+    content: url('images/bt_3.png');
+}
+
+.botao-objetivos::before{
+    content: url('images/bt_4.png');
+}
+
+.botao-causa-e-efeito::before{
+    content: url('images/bt_5.png');
 }
