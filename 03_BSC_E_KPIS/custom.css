@@ -63,3 +63,12 @@
 .botao-causa-e-efeito::before{
     content: url('images/bt_5.png');
 }
+
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
