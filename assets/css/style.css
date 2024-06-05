@@ -1,0 +1,27 @@
+.bloco1,.bloco2,.bloco3,.bloco4,.bloco5,.bloco6,.bloco7,.bloco8,.bloco9,.bloco10,.bloco11,.bloco12{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.bloco2,
+.bloco6{
+    /* background-color:  var(--cor-secundaria); */
+    background-image: linear-gradient(to left bottom, #ffffff, #eee6ef, #e4cbd8, #dcb1b9, #cf9993);
+    border-radius: 90px;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.15);
+}
+.bloco3,
+.bloco5{
+    background-color: #fff;
+}
+.bloco7{
+    background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%),
+     /* radial-gradient(farthest-corner at 106% 114%, #1A447F 5%, transparent 25%), */
+      radial-gradient(farthest-corner at -2% 75%, #CF9993 0%, transparent 25%);
+}
+.bloco4,
+.bloco8{
+    /* background-color:  var(--cor-secundaria); */
+    background-image: linear-gradient(to left bottom, #ffffff, #e8e8f2, #ced3e6, #b2bfda, #92acce);
+    border-radius: 90px;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.15);
+}

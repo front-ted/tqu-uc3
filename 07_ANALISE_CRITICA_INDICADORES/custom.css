@@ -1,0 +1,16 @@
+body{
+    background-image: none;
+}
+.imgsCarrosel img{
+    width: 350px;
+    margin: 0 auto;
+}
+.imgsCarrosel{
+    margin-bottom: 50px;
+}
+.figure-img img{
+    margin: 0 auto;
+}
+.bloco8 table{
+    background-color: #fff;
+}
