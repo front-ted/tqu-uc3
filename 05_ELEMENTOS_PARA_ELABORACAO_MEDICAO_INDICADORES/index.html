@@ -50,16 +50,29 @@
       <button class="bt-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></button>
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Técnico em óptica</h5>
+            <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Técnico em qualidade</h5>
             <button type="button" class="bt-fecharmenu text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <nav id="nav-offcanvas" class="offcanvas-body">
             <ul>
-                <li><a href="#titulo1">Lorem ipsum</a></li>
-                <li><a href="#titulo2">Lorem ipsum</a></li>
-                <li><a href="#titulo3">Lorem ipsum dolor sit amet dolor sit amet</a></li>
-                <li><a href="#titulo4">Lorem ipsum</a></li>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#desenvolvimento">Desenvolvimento </a></li>
+                <li><a href="#ficha">Ficha de informações do indicador</a></li>
+                <li><a href="#nomeIndicador" class="subtitulo">Nome do indicador</a></li>
+                <li><a href="#classificacaoTipoIndicador" class="subtitulo">Classificação do tipo de indicador</a></li>
+                <li><a href="#definicao" class="subtitulo">Definição</a></li>
+                <li><a href="#calculoPercentuais" class="subtitulo">Cálculo (construção de percentuais) </a></li>
+                <li><a href="#fonteInformacao" class="subtitulo">Fonte da informação</a></li>
+                <li><a href="#frequencia" class="subtitulo">Frequência</a></li>
+                <li><a href="#responsavel" class="subtitulo">Responsável</a></li>
+                <li><a href="#sentido" class="subtitulo">Sentido</a></li>
+                <li><a href="#meta" class="subtitulo">Meta</a></li>
+                <li><a href="#unidadeMedida" class="subtitulo">Unidade de medida</a></li>
+                <li><a href="#serieHistorica" class="subtitulo">Série histórica</a></li>
+                <li><a href="#encerramento">Encerramento</a></li>
+                <li><a href="#desafio">Desafio</a></li>
             </ul>
+
         </nav>
       </div>
         <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
@@ -72,7 +85,7 @@
 
             <h2>Elementos para elaboração e medição de indicadores: nome do indicador, classificação do tipo de indicador, definição, cálculo (construção de percentuais), fonte da informação, frequência de medição, meta e responsável</h2>
 
-            <h3>Introdução</h3>
+            <h3 id="introducao">Introdução</h3>
 
             <p>
               Nesta unidade curricular, você já teve contato com informações muito relevantes. Tais informações estão contidas nos conhecimentos <b>Indicadores de desempenho: conceito, finalidades, objetivos e metas</b>; <b>Relação entre indicadores de estratégia (níveis estratégico, tático e operacional) e processos</b>; <b>BSC (<i>balanced score card</i>) e KPIs (<i>key performance indicators</i>): conceito, finalidade e relação com a estratégia</b>; e <b>Tipos de indicadores: de capacidade, de produtividade, de qualidade e financeiro</b>.
@@ -90,7 +103,7 @@
               Conheça os elementos para a elaboração e a medição de indicadores. 
             </p>
 
-            <h3>Desenvolvimento</h3>
+            <h3 id="desenvolvimento">Desenvolvimento</h3>
 
             <p>
               Ao criar um indicador, é importante você saber que precisará definir uma série de informações necessárias para que ele seja relevante e seja entendido por qualquer colaborador ou parte interessada que o veja. 
@@ -100,7 +113,7 @@
               O conjunto desses elementos é o planejamento da criação do indicador. Para organizar o planejamento desses elementos, geralmente é utilizada uma ficha de informações para cada indicador. Cabe ressaltar que o modelo dessa ficha varia conforme a organização, podendo ter as informações que a organização achar pertinentes. Além disso, o formato em que é apresentada também pode variar, podendo ser um documento simples ou estar armazenada em um <i>software</i> de gestão de indicadores.
             </p>
 
-            <h3>Ficha de informações do indicador</h3>
+            <h3 id="ficha">Ficha de informações do indicador</h3>
 
             <p>
               É o local onde ficam registradas todas as informações de um mesmo indicador. A utilização dessa ficha de informações é fundamental para auxiliar na criação do indicador, pois nela constarão todos os dados necessários para o seu bom entendimento. 
@@ -138,7 +151,7 @@
               Agora que você já viu os benefícios de cada indicador ter a sua ficha de informações, veja os elementos que essa ficha deve conter. 
             </p>
 
-            <h4>Nome do indicador</h4>
+            <h4 id="nomeIndicador">Nome do indicador</h4>
 
             <p>
               O nome do indicador é a identificação dele. É extremamente importante que esse nome esteja ligado diretamente àquilo que se está querendo medir, ou seja, que o leitor já saiba do que se trata apenas lendo o nome do indicador.
@@ -154,7 +167,7 @@
               Apenas lendo o nome do indicador, já é possível saber que se trata de um indicador de satisfação, não é mesmo? Você percebe o quanto é intuitivo? 
             </p>
 
-            <h4>Classificação do tipo de indicador</h4>
+            <h4 id="classificacaoTipoIndicador">Classificação do tipo de indicador</h4>
 
             <p>
               Neste campo da ficha de informações, você apresentará a classificação, conforme estudado anteriormente. A classificação pode ser por nível (estratégica, tática ou operacional) e/ou por tipos (de capacidade, de produtividade, de qualidade e financeiro). Relembre o significado de cada um desses níveis no conhecimento <b>Relação entre indicadores de estratégia (níveis estratégico, tático e operacional) e processos</b> e de cada um dos tipos no conhecimento <b>Tipos de indicadores: de capacidade, de produtividade, de qualidade e financeiro</b> desta unidade curricular. 
@@ -188,7 +201,7 @@
               Seguindo o mesmo exemplo de indicador utilizado anteriormente (satisfação do cliente), a classificação por tipo é <b>de qualidade</b>, pois mede a percepção dos usuários quanto aos produtos ou serviços oferecidos pela empresa, que é uma das características desse tipo de indicador.
             </p>
 
-            <h4>Definição</h4>
+            <h4 id="definicao">Definição</h4>
 
             <p>
               A definição de um indicador deve relatar sua finalidade, ou seja, quais são os resultados que ele apresenta. Essa definição precisa ser clara e coerente com o nome do indicador.
@@ -206,7 +219,7 @@
               <b>Definição</b>: monitora o índice de clientes satisfeitos e muito satisfeitos dentre todos os clientes que responderam à pesquisa de satisfação.
             </p>
 
-            <h4>Cálculo (construção de percentuais)</h4>
+            <h4 id="calculoPercentuais">Cálculo (construção de percentuais)</h4>
 
             <p>
               Saber calcular um indicador é uma habilidade indispensável para um técnico em qualidade. Para calcular um indicador, é necessária uma série de dados ou de variáveis que, por meio da aplicação de uma fórmula, trarão resultados relevantes. Um dos grandes erros que alguns profissionais cometem é criar gráficos com informações que não apresentam nenhum resultado relevante, por isso é importante que o cálculo esteja de acordo com a definição do indicador.
@@ -255,7 +268,7 @@
               Logo mais, nos próximos conteúdos, você aprenderá sobre análise de indicadores e poderá retomar esse exemplo. 
             </p>
 
-            <h4>Fonte da informação</h4>
+            <h4 id="fonteInformacao">Fonte da informação</h4>
 
             <p>
               De acordo com Menezes (2021): “Fontes de informação são todas as publicações, ferramentas e recursos que <b>disponibilizam informação a pessoa que dela necessita</b>. É o local onde você encontrará a informação que procura”.
@@ -265,7 +278,7 @@
               A fonte da informação refere-se ao local de onde são obtidas as informações. É importante que as fontes de informação sejam confiáveis e apresentem dados fidedignos com a realidade. São exemplos de fontes de informação bastante comuns para a elaboração de indicadores: relatórios, pesquisas, planilhas, entre outros.
             </p>
 
-            <h4>Frequência</h4>
+            <h4 id="frequencia">Frequência</h4>
 
             <p>
               Refere-se à periodicidade com a qual o indicador é monitorado. Essa frequência deve ser especificada conforme a necessidade da empresa e varia conforme o indicador.
@@ -283,7 +296,7 @@
               Ainda segundo Bachmann (2020), a regra geral é que quanto mais frequentes são as avaliações dos indicadores, mais rápido podem ocorrer as melhorias nos processos correspondentes. 
             </p>
 
-            <h4>Responsável</h4>
+            <h4 id="responsavel">Responsável</h4>
 
             <p>
               Este item varia geralmente conforme o porte/tamanho da organização. Em alguns casos, pode ser um colaborador; em outros, pode ser uma área ou um setor. 
@@ -293,7 +306,7 @@
               Trata-se do colaborador/área que é responsável pela coleta de dados e/ou alimentação do indicador. É a pessoa/área que é referência sempre que houver qualquer dúvida ou situação que envolva o indicador. Cabe ressaltar que nem sempre o responsável pelo indicador é o colaborador que está diretamente vinculado ao processo. Quem define o responsável pelo indicador em geral é o gestor, e isso varia de empresa para empresa. Em alguns casos, os responsáveis são os próprios gestores; em outros, são designados colaboradores ligados ao processo ao qual o indicador está vinculado; em outros casos; pode ser que o profissional da qualidade seja o responsável por todos os indicadores. 
             </p>
 
-            <h4>Sentido</h4>
+            <h4 id="sentido">Sentido</h4>
 
             <p>
               Este elemento também pode ser encontrado em outras literaturas como “polaridade” ou “direção”. 
@@ -413,7 +426,7 @@
                     
             </div>
 
-            <h4>Meta</h4>
+            <h4 id="meta">Meta</h4>
 
             <p>
               Para que a empresa consiga visualizar como está o seu desempenho, é necessário que ela tenha metas definidas. Metas devem ser claras e específicas. Lembre-se do conteúdo que fala sobre o método SMART (específico, mensurável, alcançável, relevante e temporal), visto nesta unidade curricular.  
@@ -447,7 +460,7 @@
               A meta é extremamente importante no momento de análise dos resultados dos indicadores. Nesta unidade curricular, no conhecimento <b>Análise crítica de Indicadores</b>, você se aprofundará na análise de indicadores, considerando o resultado obtido comparado com a meta planejada, e aprenderá sobre o que fazer caso a meta não seja atingida.  
             </p>
 
-            <h4>Unidade de medida</h4>
+            <h4 id="unidadeMedida">Unidade de medida</h4>
 
             <p>
               Refere-se à forma como o indicador será apresentado. São exemplos de unidade de medida: dias, horas, meses, anos, reais, percentuais, números etc. 
@@ -609,7 +622,7 @@
             </div>
             <figcaption class="figure-caption text-center">Ficha de indicadores preenchida<br> Fonte: Senac EAD (2024)</figcaption>
 
-            <h4>Série histórica</h4>
+            <h4 id="serieHistorica">Série histórica</h4>
 
             <p>
               Um outro componente importante para a elaboração de indicadores são os dados utilizados para o cálculo dos indicadores. Esses dados são chamados de <b>série histórica</b>, que é uma série de dados necessários para a aplicação da fórmula e a realização do cálculo para a criação do gráfico do indicador.
@@ -731,13 +744,13 @@
             </div>
             <figcaption class="figure-caption text-center">Série histórica mensal<br> Fonte: Senac EAD (2024)</figcaption>
 
-            <h3>Encerramento</h3>
+            <h3 id="encerramento">Encerramento</h3>
 
             <p>
               Como já comentado anteriormente, na atuação como técnico em qualidade, você auxiliará a elaborar e a medir indicadores. Por isso, é fundamental conhecer os elementos dos indicadores, sua aplicabilidade e a importância da utilização da ficha de indicadores, pois serão muito utilizados no seu dia a dia de trabalho, independentemente do porte e do segmento da organização em que esteja atuando. 
             </p>
 
-            <h3>Desafio</h3>
+            <h3 id="desafio">Desafio</h3>
 
             <div class="box-atividade">
 
