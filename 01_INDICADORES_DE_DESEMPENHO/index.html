@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="custom.css">
     
     </head>
-    <body>
+    <body class="bg-claro">
         <!-- Preloader OBRIGATÓRIO -->
         <div class="preloader">
             <div class="anim"></div>
@@ -44,6 +44,7 @@
                 <div class="container">
                     <h1 id="nome-curso" class="only-print">Nome do curso</h1>    
                 </div>
+                <!-- <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"></div> -->
             </div>
         </header>
         <!--Menu lateral-->
@@ -1008,9 +1009,23 @@
         <script src="../assets/js/geral.js"></script>
         <script src="../assets/atividades/perguntas/perguntas.js"></script>
 
+       
         <script>
-            $(function() {
+            $(function () {
                 $("body").prognroll();
+            });
+
+            $(".btn-tema_pagina").click(function () {
+                console.log($(".btn-tema_pagina"))
+                if ($("body").hasClass('bg-claro')) {
+                    console.log("sim");
+                    $("body").removeClass('bg-claro')
+                    $("body").addClass("bg-escuro");
+                } else if ($("body").hasClass('bg-escuro')) {
+                    console.log("não");
+                    $("body").removeClass('bg-escuro')
+                    $("body").addClass("bg-claro")
+                }
             });
         </script>
 
