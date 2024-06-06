@@ -25,3 +25,24 @@
 .table-responsive{
     margin-bottom: 25px;
 }
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}
