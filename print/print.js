@@ -52,7 +52,10 @@ window.addEventListener('load', function(){
     if (el.indexOf('imgpath') != -1)
       imgPath = el.split("=")[1] + '/';
     if (el.indexOf('startpoint') != -1)
-      startPoint = el.split("=")[1];
+      startPoint = el.split("=")[1]
+    else{
+      startPoint = "index.html";
+    }
   })
   //console.log(path)
   //console.log('params:', params)
