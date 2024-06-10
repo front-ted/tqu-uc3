@@ -27,7 +27,6 @@ body {
     /* background-attachment: fixed !important; */
     height: auto;
     overflow-x: hidden;
-    font-size: 20px;
 }
 
 .bg-fundo {
@@ -58,10 +57,14 @@ body {
     color: #fff;
 }
 
+.subtitulo{
+    padding-left: 30px;
+}
+
 h1 {
     padding: 40px 0;
     text-transform: uppercase;
-    font-size: 3.5em;
+    font-size: 3vw;
     font-family: figtree-bold;
     color: #fff;
     text-align: center;
@@ -81,18 +84,18 @@ h2 {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: -30px;
-    font-size: 1.8em;
+    font-size: 36px;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 h4 {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 22px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -107,7 +110,7 @@ th,
 td,
 a {
     font-family: figtree;
-    font-size: 1em;
+    font-size: 20px;
 }
 
 b,
@@ -140,7 +143,7 @@ p {
     display: block;
     position: fixed;
     bottom: 50px;
-    right: 10px;
+    right: 50px;
     z-index: 900;
 }
 
@@ -963,7 +966,7 @@ tbody td:first-child {
     height: 42px;
     position: fixed;
     z-index: 900;
-    right: 10px;
+    right: 50px;
     bottom: 110px;
     cursor: pointer;
     transition: all 0.4s;
@@ -987,10 +990,13 @@ tbody td:first-child {
 .bg-escuro h4,
 .bg-escuro h5,
 .bg-escuro p,
-.bg-escuro li,
 .bg-escuro figcaption,
 .bg-escuro p.enunciado {
     color: #fff;
+}
+
+.bg-escuro li{
+    color: #000;
 }
 
 .bg-escuro .container {

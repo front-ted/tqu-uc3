@@ -34,6 +34,10 @@
     display: none;
 }
 
+.bg-escuro .box-atividade  p{
+    color: black;
+}
+
 
 @media screen and (max-width:500px) {
 

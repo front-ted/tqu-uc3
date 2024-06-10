@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="custom.css">
     
     </head>
-    <body>
+    <body class="bg-claro">
       <!-- Preloader OBRIGATÓRIO -->
       <div class="preloader">
           <div class="anim"></div>
@@ -43,7 +43,9 @@
                   <h1 id="nome-curso" class="only-print">Nome do curso</h1>    
               </div>
           </div>
+          <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"></div>
       </header>
+
       <!--Menu lateral-->
       <button class="bt-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></button>
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
@@ -83,7 +85,8 @@
         </nav>
       </div>
         <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
-      <section id="booklet">      
+      <section id="booklet">
+        <div class="layer-preta no-print"></div>      
           <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
         <section class="paginas">
 
@@ -361,7 +364,7 @@
 
               <div class="desktop ">
                 <figure class="my-5">
-                      <img class="img-fluid d-block borda-colorida mx-auto" src="">
+                      <img class="img-fluid d-block borda-colorida mx-auto" src="../03_BSC_E_KPIS/images/quadro1.png">
                   <figcaption class="figure-caption text-center">Perspectivas do mapa estratégico <br> Fonte: Adaptado de De Paula (c2021)</figcaption>
                 </figure>
               </div>
@@ -1216,9 +1219,9 @@
                 Os setores da matriz correspondem aos diferentes níveis de abstração no planejamento estratégico. Começa-se pelas prioridades estratégicas ou metas de longo prazo, passando pelas metas e atividades anuais, chegando, finalmente, à métrica de desempenho. A matriz X ajuda a explicar a correlação entre os setores mais próximos. A notação para as correlações varia entre as empresas. Nesse exemplo, os círculos pretos representam correlação direta e os círculos brancos representam ideias complementares.
               </p>
 
-              <b>
+              <p>
                 Ele é mais bem implantado em organizações que já se beneficiam da filosofia do <i>lean</i>, porém a estratégia não é limitada somente a essas empresas, e seus princípios fundamentais podem ser adotados em qualquer organização. São eles:
-              </b>
+              </p>
 
               <div class="grafismo">
                 <div class="destaque borda-colorida">
@@ -1582,9 +1585,27 @@
 
           splide.mount();
 
-          $(function() {
+          
+
+          
+      </script>
+
+      <script>
+        $(function() {
               $("body").prognroll();
           });
+        $(".btn-tema_pagina").click(function () {
+                console.log($(".btn-tema_pagina"))
+                if ($("body").hasClass('bg-claro')) {
+                    console.log("sim");
+                    $("body").removeClass('bg-claro')
+                    $("body").addClass("bg-escuro");
+                } else if ($("body").hasClass('bg-escuro')) {
+                    console.log("não");
+                    $("body").removeClass('bg-escuro')
+                    $("body").addClass("bg-claro")
+                }
+            });
       </script>
 
         <!-- Handtalk -->
