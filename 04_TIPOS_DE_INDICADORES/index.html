@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="custom.css">
     
     </head>
-    <body>
+    <body class="bg-claro">
       <!-- Preloader OBRIGATÓRIO -->
       <div class="preloader">
           <div class="anim"></div>
@@ -43,7 +43,9 @@
                   <h1 id="nome-curso" class="only-print">Técnico em qualidade</h1>    
               </div>
           </div>
+          <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"></div>
       </header>
+
       <!--Menu lateral-->
       <button class="bt-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></button>
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
@@ -68,7 +70,8 @@
       </div>
         <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
       <section id="booklet">      
-          <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+        <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+        <div class="layer-preta no-print"></div>      
         <section class="paginas">
 
           <div class="pagina container">
@@ -339,7 +342,7 @@
             </p>
             
             <figure class="my-5">
-              <div class="figure-img  mb-4">
+              <div class="figure-img  mb-4 imagem">
                   <img class="img-fluid mx-auto d-block " src="../04_TIPOS_DE_INDICADORES/images/figura1.png">
               </div>
               <figcaption class="figure-caption text-center">Níveis de indicadores e seus tipos <br> Fonte: Senac EAD (2024)</figcaption>
@@ -377,8 +380,8 @@
               Veja a demonstração do monitoramento desse indicador ao longo do tempo para uma máquina específica:
             </p>
 
-            <figure class="my-5">
-              <div class="figure-img mb-4">
+            <figure class="my-5 ">
+              <div class="figure-img mb-4 imagem">
                   <img class="img-fluid d-block mx-auto" src="../04_TIPOS_DE_INDICADORES/images/figura2.png">
               </div>
               <figcaption class="figure-caption text-center">Gráfico do tempo de <i>set-up</i> médio mensal de um equipamento <br> Fonte: Senac EAD (2024) </figcaption>
@@ -425,7 +428,7 @@
             <div class="desktop">
               <figure class="my-5">
                 <div class="figure-img  mb-4">
-                    <img class="img-fluid d-block mx-auto " src="../04_TIPOS_DE_INDICADORES/images/figura3.png">
+                    <img class="img-fluid d-block mx-auto imagem" src="../04_TIPOS_DE_INDICADORES/images/figura3.png">
                 </div>
                 <figcaption class="figure-caption text-center">Cálculo do OEE <br> Fonte: Adaptado de OEE (c2021)  </figcaption>
               </figure>
@@ -434,7 +437,7 @@
             <div class="mobile no-print">
               <figure class="my-5">
                 <div class="figure-img  mb-4">
-                    <img class="img-fluid d-block mx-auto " src="images/figura3_mobile.png">
+                    <img class="img-fluid d-block mx-auto imagem" src="images/figura3_mobile.png">
                 </div>
                 <figcaption class="figure-caption text-center">Cálculo do OEE <br> Fonte: Adaptado de OEE (c2021)  </figcaption>
               </figure>
@@ -465,7 +468,7 @@
                 <div class="col-md-6">
                   <figure class="my-5">
                     <div class="figure-img  mb-4">
-                        <img class="img-fluid mx-auto d-block " src="../04_TIPOS_DE_INDICADORES/images/figura4.png">
+                        <img class="img-fluid mx-auto d-block imagem" src="../04_TIPOS_DE_INDICADORES/images/figura4.png">
                     </div>
                     <figcaption class="figure-caption text-center">Cálculo do OEE <br> Fonte: Senac EAD (2024)</figcaption>
                   </figure>
@@ -473,7 +476,7 @@
                 <div class="col-md-6">
                   <figure class="my-5">
                     <div class="figure-img  mb-4">
-                        <img class="img-fluid d-block mx-auto" src="../04_TIPOS_DE_INDICADORES/images/figura4_1.png">
+                        <img class="img-fluid d-block mx-auto imagem" src="../04_TIPOS_DE_INDICADORES/images/figura4_1.png">
                     </div>
                     <figcaption class="figure-caption text-center">Cálculo do OEE <br> Fonte: Senac EAD (2024)</figcaption>
                   </figure>
@@ -511,8 +514,8 @@
             </p>
 
             <figure class="my-5">
-              <div class="figure-img  mb-4">
-                  <img class="img-fluid d-block mx-auto" src="../04_TIPOS_DE_INDICADORES/images/figura5.png">
+              <div class="figure-img  mb-4 imagem borda-colorida">
+                  <img class="img-fluid d-block mx-auto " src="../04_TIPOS_DE_INDICADORES/images/figura5.png">
               </div>
               <figcaption class="figure-caption text-center">Gráfico do nível de atendimento ao cliente <br> Fonte: Senac EAD (2024)</figcaption>
             </figure>
@@ -729,8 +732,8 @@
 
             <div class="desktop">
               <figure class="my-5">
-                <div class="figure-img mx-auto mb-4">
-                    <img class="img-fluid d-block borda-colorida" src="../04_TIPOS_DE_INDICADORES/images/figura7.png">
+                <div class="figure-img  mb-4">
+                    <img class="img-fluid d-block borda-colorida mx-auto" src="../04_TIPOS_DE_INDICADORES/images/figura7.png">
                 </div>
                 <figcaption class="figure-caption text-center">Gráfico do consumo de água (m³/mês) <br> Fonte: Senac EAD (2024)</figcaption>
               </figure>
@@ -982,6 +985,7 @@
           
           
           
+          <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
           </div>
 
           
@@ -1019,9 +1023,26 @@
 
           splide.mount();
 
-          $(function() {
+          
+      </script>
+
+
+      <script>
+        $(function() {
               $("body").prognroll();
           });
+        $(".btn-tema_pagina").click(function () {
+                console.log($(".btn-tema_pagina"))
+                if ($("body").hasClass('bg-claro')) {
+                    console.log("sim");
+                    $("body").removeClass('bg-claro')
+                    $("body").addClass("bg-escuro");
+                } else if ($("body").hasClass('bg-escuro')) {
+                    console.log("não");
+                    $("body").removeClass('bg-escuro')
+                    $("body").addClass("bg-claro")
+                }
+            });
       </script>
 
       <!-- Handtalk -->

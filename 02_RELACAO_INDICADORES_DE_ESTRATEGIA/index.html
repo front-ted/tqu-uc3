@@ -29,7 +29,7 @@
 
     
     </head>
-    <body>
+    <body class="bg-claro">
         <!-- Preloader OBRIGATÓRIO -->
         <div class="preloader">
             <div class="anim"></div>
@@ -44,6 +44,7 @@
                     <h1 id="nome-curso" class="only-print">Nome do curso</h1>    
                 </div>
             </div>
+            <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"></div>
         </header>
         <!-- Menu lateral
         <button class="bt-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></button>
@@ -67,6 +68,8 @@
         <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
         <section id="booklet">      
             <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+            <div class="layer-preta no-print"></div>      
+
             <section class="paginas">
                 <div class="pagina">
                     <div class="bloco1 container">
@@ -330,6 +333,18 @@
         <script>
             $(function() {
                 $("body").prognroll();
+            });
+            $(".btn-tema_pagina").click(function () {
+                console.log($(".btn-tema_pagina"))
+                if ($("body").hasClass('bg-claro')) {
+                    console.log("sim");
+                    $("body").removeClass('bg-claro')
+                    $("body").addClass("bg-escuro");
+                } else if ($("body").hasClass('bg-escuro')) {
+                    console.log("não");
+                    $("body").removeClass('bg-escuro')
+                    $("body").addClass("bg-claro")
+                }
             });
         </script>
 

@@ -44,8 +44,12 @@
     transition: 0.5s;
 }
 
+
+.modal-header{
+    width: 104.5%;
+}
+
 .modal-estrategico{
-    
     background-image: url('images/titulo_modal_estrategico.png');
     background-size: cover;
 }

@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="custom.css">
     
     </head>
-    <body>
+    <body class="bg-claro">
       <!-- Preloader OBRIGATÓRIO -->
       <div class="preloader">
           <div class="anim"></div>
@@ -45,12 +45,14 @@
                   <h1 id="nome-curso" class="only-print">Técnico em qualidade</h1>    
               </div>
           </div>
+          <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"></div>
       </header>
       
       
       <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
-      <section id="booklet">      
-          <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+      <section id="booklet">
+        <div class="layer-preta no-print"></div>            
+        <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
         <section class="paginas">
 
           <div class="pagina">
@@ -144,6 +146,7 @@
               </div>
             </div>
 
+            <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
 
           </div>
 
@@ -184,10 +187,28 @@
 
           splide.mount();
 
-          $(function() {
+          
+      </script>
+
+
+      <script>
+        $(function() {
               $("body").prognroll();
           });
+        $(".btn-tema_pagina").click(function () {
+                console.log($(".btn-tema_pagina"))
+                if ($("body").hasClass('bg-claro')) {
+                    console.log("sim");
+                    $("body").removeClass('bg-claro')
+                    $("body").addClass("bg-escuro");
+                } else if ($("body").hasClass('bg-escuro')) {
+                    console.log("não");
+                    $("body").removeClass('bg-escuro')
+                    $("body").addClass("bg-claro")
+                }
+            });
       </script>
+
 
       <!-- Handtalk -->
       <script>

@@ -6,6 +6,15 @@
     display: none;
 }
 
+
+.bg-escuro .imagem{
+    padding: 30px 0;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+
+
 @media screen and (max-width:500px) {
 
     .desktop {

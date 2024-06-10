@@ -31,7 +31,7 @@
         <link rel="stylesheet" href="custom.css">
     
     </head>
-    <body>
+    <body class="bg-claro">
       <!-- Preloader OBRIGATÓRIO -->
       <div class="preloader">
           <div class="anim"></div>
@@ -46,6 +46,7 @@
                   <h1 id="nome-curso" class="only-print">Técnico em qualidade</h1>    
               </div>
           </div>
+          <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"></div>
       </header>
       <!--Menu lateral-->
       <button class="bt-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></button>
@@ -64,20 +65,13 @@
                 <li><a href="#titulo6">Ações corretivas ou de melhoria </a></li>
                 <li><a href="#titulo7">Avaliação de eficácia </a></li>
                 <li><a href="#titulo8">Encerramento </a></li>
-
-
-
-
-
-
-
-
             </ul>
         </nav>
       </div>
         <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
       <section id="booklet">      
-          <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+        <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+        <div class="layer-preta no-print"></div>      
         <section class="paginas">
 
           <div class="pagina">
@@ -624,14 +618,16 @@
                 Em grupo, eles selecionaram as melhores ideias (aquelas em que todos concordaram que teria alguma relação de causa com o resultado do indicador), mas, antes, seguindo as orientações da colega Norma, registraram o porquê de cada ideia ter sido descartada.  
               </p>
 
-              <ul class="custom-bullet">
-                <li>A hipótese 1 foi desconsiderada, pois a quantidade de clientes estava em um número similar ao que registrava a série histórica do indicador no período anterior à reforma da lanchonete, conforme apontou a proprietária Rose, referindo-se ao painel de indicadores.  </li>
-                <li>A hipótese 2 foi descartada para a análise, pois a variação de custo não interfere no faturamento, mas, sim, no lucro. Apesar disso, a proprietária da cafeteria decidiu examinar os registros para identificar se houve variação significativa e se essa questão pode ser trabalhada no futuro para aumentar as margens nos produtos e compensar parte da perda de faturamento.  </li>
-                <li>A hipótese 3 acabou descartada também, após constatação de que não houve falta de produto nos últimos períodos. No entanto, não foi rechaçada de pronto. Apesar de haver um sentimento geral de que isso não havia ocorrido, essa afirmativa só foi aceita após uma análise minuciosa do diário da cafeteria que os funcionários mantêm ao lado do caixa para registro de qualquer manifestação dos clientes, seja reclamação, seja elogio ou sugestão. Aos poucos, os colaboradores iam entendendo que as decisões de aceitar ou descartar as hipóteses precisam de dados confiáveis, não podendo ser baseadas em “sentimento”. Norma sempre repetia: “precisamos de evidências”.  </li>
-                <li>A hipótese 4 também foi descartada com a análise dos indicadores, uma vez que, ao examinar o mesmo período nos dois últimos anos, não houve redução importante no faturamento que pudesse estar relacionada com a estação do ano. Alguns se surpreenderam com esse resultado, pois pensavam que a diferença de consumo de café no verão e no inverno pudesse causar impacto no faturamento. Porém Rose esclareceu que o mix de produtos mantinha essa conta equilibrada.  </li>
-                <li>As hipóteses 5 e 6 não faziam parte do monitoramento da Cafeteria Brasil, eram apenas observações, por enquanto, baseadas em “sentimento”. Então, definiu-se por uma pesquisa na vizinhança, para ver se alguma dessas situações poderia estar impactando no faturamento da cafeteria. Os colaboradores Amanda e Guilherme ficaram empolgados com a missão de coletar dados na concorrência. O nome disso é benchmarking, explicou Norma.  </li>
-                <li>Da mesma forma, para as hipóteses 7 e 8, não houve um consenso entre o time. Embora não houvesse anotações quanto à qualidade dos produtos ou sobre o tempo de atendimento, resolveram que fariam uma pesquisa por 15 dias com os clientes sobre esses dois pontos, para, enfim, ter dados confiáveis antes de decidir aceitar ou rejeitar as hipóteses. Para essa tarefa, o colaborador Jefferson apresentou-se como voluntário.  </li>
-              </ul>
+              <div class="li-normal">
+                <ul class="custom-bullet">
+                  <li>A hipótese 1 foi desconsiderada, pois a quantidade de clientes estava em um número similar ao que registrava a série histórica do indicador no período anterior à reforma da lanchonete, conforme apontou a proprietária Rose, referindo-se ao painel de indicadores.  </li>
+                  <li>A hipótese 2 foi descartada para a análise, pois a variação de custo não interfere no faturamento, mas, sim, no lucro. Apesar disso, a proprietária da cafeteria decidiu examinar os registros para identificar se houve variação significativa e se essa questão pode ser trabalhada no futuro para aumentar as margens nos produtos e compensar parte da perda de faturamento.  </li>
+                  <li>A hipótese 3 acabou descartada também, após constatação de que não houve falta de produto nos últimos períodos. No entanto, não foi rechaçada de pronto. Apesar de haver um sentimento geral de que isso não havia ocorrido, essa afirmativa só foi aceita após uma análise minuciosa do diário da cafeteria que os funcionários mantêm ao lado do caixa para registro de qualquer manifestação dos clientes, seja reclamação, seja elogio ou sugestão. Aos poucos, os colaboradores iam entendendo que as decisões de aceitar ou descartar as hipóteses precisam de dados confiáveis, não podendo ser baseadas em “sentimento”. Norma sempre repetia: “precisamos de evidências”.  </li>
+                  <li>A hipótese 4 também foi descartada com a análise dos indicadores, uma vez que, ao examinar o mesmo período nos dois últimos anos, não houve redução importante no faturamento que pudesse estar relacionada com a estação do ano. Alguns se surpreenderam com esse resultado, pois pensavam que a diferença de consumo de café no verão e no inverno pudesse causar impacto no faturamento. Porém Rose esclareceu que o mix de produtos mantinha essa conta equilibrada.  </li>
+                  <li>As hipóteses 5 e 6 não faziam parte do monitoramento da Cafeteria Brasil, eram apenas observações, por enquanto, baseadas em “sentimento”. Então, definiu-se por uma pesquisa na vizinhança, para ver se alguma dessas situações poderia estar impactando no faturamento da cafeteria. Os colaboradores Amanda e Guilherme ficaram empolgados com a missão de coletar dados na concorrência. O nome disso é benchmarking, explicou Norma.  </li>
+                  <li>Da mesma forma, para as hipóteses 7 e 8, não houve um consenso entre o time. Embora não houvesse anotações quanto à qualidade dos produtos ou sobre o tempo de atendimento, resolveram que fariam uma pesquisa por 15 dias com os clientes sobre esses dois pontos, para, enfim, ter dados confiáveis antes de decidir aceitar ou rejeitar as hipóteses. Para essa tarefa, o colaborador Jefferson apresentou-se como voluntário.  </li>
+                </ul>
+              </div>
 
               <p>
                 Para organizar as ações de investigação, Norma retomou seus materiais do curso Técnico em Qualidade no Senac e localizou a unidade curricular na qual foi apresentada a técnica do 5W2H. Ela tinha a lembrança de ter compreendido o valor dessa ferramenta durante as atividades práticas do curso.  
@@ -1239,6 +1235,7 @@
 
                </div>
             </div>          
+            <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
 
           </div>
 
@@ -1279,10 +1276,28 @@
 
           splide.mount();
 
-          $(function() {
-              $("body").prognroll();
-          });
+         
       </script>
+
+
+
+    <script>
+      $(function() {
+            $("body").prognroll();
+        });
+      $(".btn-tema_pagina").click(function () {
+              console.log($(".btn-tema_pagina"))
+              if ($("body").hasClass('bg-claro')) {
+                  console.log("sim");
+                  $("body").removeClass('bg-claro')
+                  $("body").addClass("bg-escuro");
+              } else if ($("body").hasClass('bg-escuro')) {
+                  console.log("não");
+                  $("body").removeClass('bg-escuro')
+                  $("body").addClass("bg-claro")
+              }
+          });
+    </script>
 
       <!-- Handtalk -->
       <script>

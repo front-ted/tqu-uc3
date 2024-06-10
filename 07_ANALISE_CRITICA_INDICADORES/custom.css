@@ -14,3 +14,13 @@ body{
 .bloco8 table{
     background-color: #fff;
 }
+
+.bg-escuro li{
+    color: black;
+}
+
+
+.bg-escuro .li-normal .custom-bullet li{
+    color: white;
+}
+

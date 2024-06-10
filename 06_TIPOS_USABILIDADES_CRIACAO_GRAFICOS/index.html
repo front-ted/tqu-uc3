@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="custom.css">
     
     </head>
-    <body>
+    <body class="bg-claro">
       <!-- Preloader OBRIGATÓRIO -->
       <div class="preloader">
           <div class="anim"></div>
@@ -45,6 +45,8 @@
                   <h1 id="nome-curso" class="only-print">Técnico em qualidade</h1>    
               </div>
           </div>
+          <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"></div>
+
       </header>
       <!--Menu lateral-->
       <button class="bt-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></button>
@@ -68,7 +70,9 @@
       </div>
         <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
       <section id="booklet">      
-          <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+        <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
+        <div class="layer-preta no-print"></div>      
+
         <section class="paginas">
 
           <div class="pagina container">
@@ -709,6 +713,8 @@
               Conforme a ISO 9001:2015, a tomada de decisões baseada em evidências é um dos sete princípios da qualidade. Nesse sentido, o técnico em qualidade poderá preencher, criar ou acompanhar representações gráficas como ferramentas auxiliares para embasar a análise de evidências, fatos e dados em sua atuação profissional. 
             </p>
 
+            <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
+
           </div>
 
 
@@ -752,10 +758,24 @@
             new Splide( '#splide4' ).mount();
           } );
 
+      </script>
 
-          $(function() {
+      <script>
+        $(function() {
               $("body").prognroll();
           });
+        $(".btn-tema_pagina").click(function () {
+                console.log($(".btn-tema_pagina"))
+                if ($("body").hasClass('bg-claro')) {
+                    console.log("sim");
+                    $("body").removeClass('bg-claro')
+                    $("body").addClass("bg-escuro");
+                } else if ($("body").hasClass('bg-escuro')) {
+                    console.log("não");
+                    $("body").removeClass('bg-escuro')
+                    $("body").addClass("bg-claro")
+                }
+            });
       </script>
 
       <!-- Handtalk -->

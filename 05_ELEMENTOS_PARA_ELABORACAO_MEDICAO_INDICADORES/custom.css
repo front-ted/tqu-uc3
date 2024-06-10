@@ -6,3 +6,27 @@
 .citacao > p{
     text-align: justify;
 }
+
+.bg-escuro .imagem{
+    padding: 30px 0;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.bg-escuro li{
+    color: black;
+}
+
+
+.bg-escuro .box-atividade  p{
+    color: black;
+}
+
+.figure-caption{
+    margin-bottom: 50px;
+}
+
+.tabela-serie{
+    border: 2px solid rgb(0, 38, 255);
+    margin-bottom: 15px;
+}
