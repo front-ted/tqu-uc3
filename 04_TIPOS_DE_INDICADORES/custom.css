@@ -17,8 +17,8 @@
 }
 
 .encerramento{
-    height:1000px ;
-
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width:500px) {
