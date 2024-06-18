@@ -1092,4 +1092,6 @@ tbody td:first-child {
         background-size: 47%, 14%;
         background-position: left -155px center, right 5% center;
     }
+    .voltar-topo {right: unset; left: 10px;}
+    .btn-tema_pagina {right: unset; left: 10px;}
 }
