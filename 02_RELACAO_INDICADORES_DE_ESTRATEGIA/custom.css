@@ -44,6 +44,10 @@
     transition: 0.5s;
 }
 
+.bg1{
+    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg01.png') fixed;
+}
+
 
 .modal-header{
     width: 104.5%;
@@ -62,4 +66,24 @@
 .modal-operacional{
     background-image: url('images/titulo_modal_operacional.png');
     background-size: cover;
+}
+
+
+.bloco2{
+    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg01.png') fixed !important;
+}
+
+.bloco4{
+    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg02.png') fixed !important;
+
+}
+
+.bloco6{
+    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg03.png') fixed !important;
+
+}
+
+.bloco8{
+    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg04.png') fixed !important;
+
 }

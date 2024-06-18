@@ -1,6 +1,6 @@
-body{
+/* body{
     background-image: none;
-}
+} */
 .imgsCarrosel img{
     width: 350px;
     margin: 0 auto;
@@ -24,3 +24,27 @@ body{
     color: white;
 }
 
+
+.bloco2,
+.bloco6{
+    /* background-color:  var(--cor-secundaria); */
+    background-image: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg01.png') fixed;
+    /* border-radius: 90px;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.15); */
+}
+.bloco3,
+.bloco5{
+    background-color: #fff;
+}
+.bloco7{
+    background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%),
+     /* radial-gradient(farthest-corner at 106% 114%, #1A447F 5%, transparent 25%), */
+      radial-gradient(farthest-corner at -2% 75%, #CF9993 0%, transparent 25%);
+}
+.bloco4,
+.bloco8{
+    /* background-color:  var(--cor-secundaria); */
+    background-image: linear-gradient(to left bottom, #ffffff, #e8e8f2, #ced3e6, #b2bfda, #92acce);
+    border-radius: 90px;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.15);
+}

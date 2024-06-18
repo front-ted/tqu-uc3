@@ -45,14 +45,15 @@
           </div>
           <div id="toggleButton" class="btn-tema_pagina no-print" onclick="toggleBackgroundImage()"></div>
       </header>
-
       <!--Menu lateral-->
-      <button class="bt-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop"></button>
+
+      <button class="bt-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" ></button>
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Técnico em qualidade</h5>
             <button type="button" class="bt-fecharmenu text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
+
         <nav id="nav-offcanvas" class="offcanvas-body">
             <ul>
                 <li><a href="#introducao">Introdução</a></li>
@@ -67,6 +68,8 @@
                 <li><a href="#encerramento">Encerramento</a></li>
             </ul>
         </nav>
+
+
       </div>
         <!-- Section principal #booklet OBRIGATÓRIO para funcionamento do print -->    
       <section id="booklet">      
@@ -337,7 +340,7 @@
 
             </div>
 
-            <p>
+            <p class="margin-top-40">
               Na imagem, são representados os três níveis estratégicos juntamente com seus indicadores correspondentes e os responsáveis por monitorá-los. 
             </p>
             
@@ -348,7 +351,7 @@
               <figcaption class="figure-caption text-center">Níveis de indicadores e seus tipos <br> Fonte: Senac EAD (2024)</figcaption>
             </figure>
 
-            <p class="acessivel no-print">
+            <p class="acessivel no-print visually-hidden">
               A imagem é de uma pirâmide dividida em três partes. Na base está mencionado o indicador KAI, que é de nível operacional e realizado por analistas e operadores. Na parte do meio está descrito o indicador KPI, que é de nível tático e realizado pela coordenação e supervisão. O topo da pirâmide, último pedaço, está descrito o KMI, que é o indicador de nível estratégico e de responsabilidade da alta direção e das gerências.
             </p>
 
@@ -414,7 +417,7 @@
             </p>
 
             <p>
-              O cálculo é feito levando em consideração três fatores (disponibilidade x performance x qualidade), conforme as fórmulas:
+              O cálculo é feito levando em consideração três fatores (disponibilidade x <i>performance</i> x qualidade), conforme as fórmulas:
             </p>
 
             <div class="grafismo">
@@ -444,7 +447,7 @@
             </div>
             
 
-            <p class="acessivel no-print">
+            <p class="acessivel no-print visually-hidden">
               A figura é de uma tabela demonstrativa do cálculo do OEE. Na primeira coluna há o cálculo geral do OEE, que é multiplicação do valor da disponibilidade pela performance e pela qualidade. A segunda coluna é a demonstração de cada fator de forma separada. O primeiro quadrante é o de disponibilidade, que é calculado a partir da razão entre o item B (tempo produzido) e o item A (tempo programado para produzir). O resultado entre estes são as perdas descritas que podem ser quebra de máquina, ociosidade ou set-up, todos mencionados em azul no canto direito. O quadrante abaixo é a performance, que é a razão entre o item D (produção real) pela letra C (produção teórica). O resultado entre estes são as perdas de performance por velocidade reduzida ou pequenas paradas. O último item é o de qualidade, que é a razão F (quantidade de produtos bons) pelo E (quantidade total de boas e ruins). O resultado deste demonstra as perdas por refugo e produção. No canto direito é mencionado que o resultado se refere às grandes perdas de produção. 
             </p>
 
@@ -454,7 +457,7 @@
 
             <div class="grafismo">
               <div class="destaque borda-colorida">
-                  <p><b>OEE% = Disponibilidade% * <i>Performance</i>% * Qualidade%</b></p>
+                  <p class="text-center"><b>OEE% = Disponibilidade% * <i>Performance</i>% * Qualidade%</b></p>
               </div>
             </div>
 
@@ -622,20 +625,20 @@
                     <td>2.220</td>
                   </tr>
                   <tr>
-                    <td><b>2023</b></td>
-                    <td><b>nov.</b></td>
-                    <td><b>99,12</b></td>
-                    <td><b>99</b></td>
-                    <td><b>19</b></td>
-                    <td><b>2.158</b></td>
+                    <td>2023</td>
+                    <td>nov.</td>
+                    <td>99,12</td>
+                    <td>99</td>
+                    <td>19</td>
+                    <td>2.158</td>
                   </tr>
                   <tr>
-                    <td><b>2023</b></td>
-                    <td><b>dez.</b></td>
-                    <td><b>99,48</b></td>
-                    <td><b>99</b></td>
-                    <td><b>9</b></td>
-                    <td><b>1.727</b></td>
+                    <td>2023</td>
+                    <td>dez.</td>
+                    <td>99,48</td>
+                    <td>99</td>
+                    <td>9</td>
+                    <td>1.727</td>
                   </tr>
                 </tbody>
               </table>
@@ -786,14 +789,14 @@
             </p>
 
 
-            <div class="table-responsive">
-              <table class="text-center align-middle" >
+            <div class="table-responsive col-md-16">
+              <table class="text-center align-middle " >
                 <thead>
                   <tr>
                     <th class="w-10"><b>Nome do indicador</b></th>
                     <th class="w-10"><b>Objetivo</b></th>
                     <th class="w-10"><b>Fórmula</b></th>
-                    <th class="w-10"><b>Descrição</b></th>
+                    <th colspan="2"><b>Descrição</b></th>
                     <th class="w-10"><b>Nível hierárquico</b> Estratégico, Tático, Operacional Obs.: a classificação pode variar dependendo do ramo, dos objetivos e das necessidades das empresas.</th>
                     <th class="w-10"><b>Tipos</b> Qualidade, Produtividade, Financeiro, Ambiental, Segurança e Não Qualidade</th>
                     <th class="w-10"><b>Dimensões</b> Quantitativo, Qualitativo </th>
@@ -804,7 +807,7 @@
                     <td>Taxa de lucratividade </td>
                     <td>Verificar a eficiência do negócio e se a empresa está gerando lucros. </td>
                     <td>Índice de lucratividade = (Lucro líquido / Receita total) x 100% </td>
-                    <td>É a relação entre o valor do lucro líquido e o valor das vendas. É um número percentual. </td>
+                    <td colspan="2">É a relação entre o valor do lucro líquido e o valor das vendas. É um número percentual. </td>
                     <td>Estratégico </td>
                     <td>Financeiro</td>
                     <td>Quantitativo</td>
@@ -813,7 +816,7 @@
                     <td>Lucro líquido </td>
                     <td>Verificar quanto dinheiro a empresa ganhou (ou perdeu) em um determinado período.  </td>
                     <td>Lucro líquido =  Receitas – Despesas variáveis – Despesas fixas </td>
-                    <td>É o resultado positivo após deduzir das vendas todos os custos e despesas. É um número absoluto. </td>
+                    <td colspan="2">É o resultado positivo após deduzir das vendas todos os custos e despesas. É um número absoluto. </td>
                     <td>Estratégico </td>
                     <td>Financeiro</td>
                     <td>Quantitativo</td>
@@ -822,7 +825,7 @@
                     <td>Satisfação de clientes (pesquisa de satisfação)</td>
                     <td>Verificar se os clientes estão tendo interações positivas com o negócio.</td>
                     <td>Péssimo, Ruim, Regular, Bom, Ótimo</td>
-                    <td>Cliente faz uma avaliação da sua satisfação com um produto, serviço ou com a empresa. É importante ter espaços para relatos qualitativos dos clientes.</td>
+                    <td colspan="2">Cliente faz uma avaliação da sua satisfação com um produto, serviço ou com a empresa. É importante ter espaços para relatos qualitativos dos clientes.</td>
                     <td>Estratégico</td>
                     <td>Qualidade</td>
                     <td>Qualitativo</td>
@@ -830,7 +833,7 @@
                     <td>(Taxa) Satisfação de clientes</td>
                     <td>Verificar a qualidade dos produtos e serviços oferecidos pela empresa. Identificar pontos fortes e áreas de melhoria.</td>
                     <td>Taxa de satisfação de clientes = (Clientes satisfeitos / Total de clientes) x 100%</td>
-                    <td>É a relação entre a quantidade de clientes satisfeitos em relação ao total de clientes pesquisados. É um número percentual.</td>
+                    <td colspan="2">É a relação entre a quantidade de clientes satisfeitos em relação ao total de clientes pesquisados. É um número percentual.</td>
                     <td>Estratégico</td>
                     <td>Qualidade</td>
                     <td>Quantitativo</td>
@@ -839,7 +842,7 @@
                     <td>Rotatividade de pessoal ou <i>Turnover</i></td>
                     <td>Verificar a taxa de rotatividade dos colaboradores.</td>
                     <td><i>Turnover</i> geral = (([admissões + desligamentos mensais] / 2) / total de funcionários)) x 100%</td>
-                    <td>Relacionada à quantidade de desligamentos de colaboradores com a entrada de outros para substituí-los.</td>
+                    <td colspan="2">Relacionada à quantidade de desligamentos de colaboradores com a entrada de outros para substituí-los.</td>
                     <td>Tático</td>
                     <td>Produtividade</td>
                     <td>Quantitativo</td>
@@ -848,7 +851,7 @@
                     <td>Índice de desenvolvimento de fornecedores</td>
                     <td>Verificar qual é a economia gerada em negociações, fornecimentos e produtividade.</td>
                     <td>Índice de desenvolvimento de fornecedores = [(Pedidos entregues no prazo / Total de pedidos) * 100 + (Itens em conformidade / Total de itens) * 100] / 2</td>
-                    <td>Geralmente é uma composição de dois ou mais indicadores do fornecedor.</td>
+                    <td colspan="2">Geralmente é uma composição de dois ou mais indicadores do fornecedor.</td>
                     <td>Tático</td>
                     <td>Qualidade</td>
                     <td>Quantitativo</td>
@@ -857,7 +860,7 @@
                     <td>Taxa de defeitos ou Taxa de refugos</td>
                     <td>Verificar a qualidade do processo.</td>
                     <td>Taxa de refugos = (peças refugadas/ peças produzidas) x 100%</td>
-                    <td>É a relação da quantidade de peças refugadas em relação às peças produzias. É um número percentual.</td>
+                    <td colspan="2">É a relação da quantidade de peças refugadas em relação às peças produzias. É um número percentual.</td>
                     <td>Operacional</td>
                     <td>Qualidade</td>
                     <td>Quantitativo</td>
@@ -866,7 +869,7 @@
                     <td>Índice de acidentes de trabalho ou Índice relativo de acidentes (IRA)</td>
                     <td>Avaliar o desempenho dos programas de segurança.</td>
                     <td>IRA = (Nº de acidentes no mês / Nº de empregados ativos no mês)</td>
-                    <td>Mede o número de acidentes ocorridos em relação ao número total de empregados ativos no mês.</td>
+                    <td colspan="2">Mede o número de acidentes ocorridos em relação ao número total de empregados ativos no mês.</td>
                     <td>Operacional</td>
                     <td>Segurança</td>
                     <td>Quantitativo</td>
@@ -875,7 +878,7 @@
                     <td>Acidentes de trabalho ou Índice de frequência de acidentes de trabalho</td>
                     <td>Avaliar o desempenho dos programas de segurança.</td>
                     <td>(Nº de acidentes com afastamento x 1.000.000) / Nº de homens-hora trabalhada IRA (Índice Relativo de Acidentes) = Nº de acidentes no mês / Nº de empregados ativos no mês</td>
-                    <td>Mede a estimativa do número de acidentes com afastamento que os empregados podem sofrer nas próximas 1.000.000 de horas produtivas.</td>
+                    <td colspan="2">Mede a estimativa do número de acidentes com afastamento que os empregados podem sofrer nas próximas 1.000.000 de horas produtivas.</td>
                     <td>Operacional</td>
                     <td>Segurança</td>
                     <td>Quantitativo</td>
@@ -978,10 +981,12 @@
             </div>
             <figcaption class="figure-caption text-center">Indicadores e seus objetivos <br> Fonte: Senac EAD (2024)</figcaption>
           
-            <h3 id="encerramento">Encerramento</h3>
-            <p>
-              Neste conteúdo, você ampliou seu conhecimento sobre a importância dos indicadores e seus níveis hierárquicos, conheceu seus tipos e sua dimensão e visualizou diversos exemplos práticos. Agora você sabe que compreender e controlar cada um dos indicadores traz vantagens ao empreendimento, aos clientes e aos funcionários, afinal é muito melhor trabalhar com um objetivo claro e mensurável. Isso contribui para promover o engajamento de todos, pois sabe-se o que é preciso fazer para atingir os resultados e propor melhorias.
-            </p>
+            <div class="encerramento">
+              <h3 id="encerramento">Encerramento</h3>
+              <p>
+                Neste conteúdo, você ampliou seu conhecimento sobre a importância dos indicadores e seus níveis hierárquicos, conheceu seus tipos e sua dimensão e visualizou diversos exemplos práticos. Agora você sabe que compreender e controlar cada um dos indicadores traz vantagens ao empreendimento, aos clientes e aos funcionários, afinal é muito melhor trabalhar com um objetivo claro e mensurável. Isso contribui para promover o engajamento de todos, pois sabe-se o que é preciso fazer para atingir os resultados e propor melhorias.
+              </p>
+            </div>
           
           
           

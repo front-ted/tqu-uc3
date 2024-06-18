@@ -6,6 +6,9 @@
     display: none;
 }
 
+.margin-top-40{
+    margin-top: 40px;
+}
 
 .bg-escuro .imagem{
     padding: 30px 0;
@@ -13,7 +16,10 @@
     border-radius: 20px;
 }
 
+.encerramento{
+    height:1000px ;
 
+}
 
 @media screen and (max-width:500px) {
 
