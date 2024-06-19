@@ -21,6 +21,12 @@
     padding-bottom: 50px;
 }
 
+.tabela-impressao{
+    border: 1px solid black;
+}
+
+
+
 @media screen and (max-width:500px) {
 
     .desktop {

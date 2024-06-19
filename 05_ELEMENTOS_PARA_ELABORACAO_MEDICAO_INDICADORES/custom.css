@@ -1,10 +1,11 @@
 .citacao{
-    margin-left: 20%;
-    margin-right: 30%;
+    margin-left: 50%;
 }
 
 .citacao > p{
     text-align: justify;
+    line-height: 1.2;
+    font-size: 1.1rem;
 }
 
 .bg-escuro .imagem{
@@ -29,4 +30,8 @@
 .tabela-serie{
     border: 2px solid rgb(0, 38, 255);
     margin-bottom: 15px;
+}
+
+.destaque {
+    margin: 50px auto;
 }

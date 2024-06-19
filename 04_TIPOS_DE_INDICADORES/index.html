@@ -467,24 +467,31 @@
 
             
 
-            <div class="row g0">
-              <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-5">
                 <figure class="my-5">
                   <div class="figure-img mb-4 text-center">
-                      <img class="img-fluid imagem" src="../04_TIPOS_DE_INDICADORES/images/figura4.png">
+                      <img class="img-fluid d-block mx-auto" src="../04_TIPOS_DE_INDICADORES/images/figura4.png">
                   </div>
                   <figcaption class="figure-caption text-center">Cálculo do OEE <br> Fonte: Senac EAD (2024)</figcaption>
                 </figure>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <figure class="my-5">
-                  <div class="figure-img mb-4 text-center">
-                      <img class="img-fluid imagem" src="../04_TIPOS_DE_INDICADORES/images/figura4_1.png">
+                  <div class="figure-img d-block mx-auto mb-4 text-center">
+                      <img class="img-fluid" src="../04_TIPOS_DE_INDICADORES/images/figura4_1.png">
                   </div>
                   <figcaption class="figure-caption text-center">Cálculo do OEE <br> Fonte: Senac EAD (2024)</figcaption>
                 </figure>
               </div>
             </div>
+
+            
+           
+              
+            
+
+            
 
             <p class="acessivel no-print visually-hidden">
               Painel de controle semanal do cálculo do OEE e seus fatores separados referente à semana 20 de determinado ano que é apresentado no formato de velocímetro. O primeiro, disposto no canto superior à esquerda, é o indicador total, o OEE, que tem como meta 64% e pela medição está resultando em 66,4%, que indica estar superior à meta e por isso a flecha está na marcação de cor verde. Ao lado, há o fator do cálculo separado, a disponibilidade, que tem como meta 90,1%, o resultado 92,0%, que também está dentro da meta, e a flecha na área verde. Abaixo, ao lado esquerdo, há o fator/velocímetro de performance, cuja meta é 74,0%, e o resultado de 75,4%, também estando dentro da meta. Por fim, no campo abaixo, do lado direito, há o velocímetro do cálculo de qualidade que tem a meta de 96,0%, porém com resultado de 95,8%, estando abaixo da meta e por isso a flecha encontra-se na região vermelha.
@@ -531,119 +538,235 @@
               A elaboração desse gráfico é feita calculando a razão entre a quantidade de pedidos reclamados e a quantidade de produtos faturados, multiplicando o resultado por 100 e, posteriormente, subtraindo o resultado de 100. Veja na tabela a demonstração da base para a geração do cálculo do indicador: 
             </p>
 
-            <div class="table-responsive">
-              <table class="text-center align-middle">
-                <thead>
+            <div class="no-print">
+              <div class="table-responsive">
+                <table class="text-center align-middle">
+                  <thead>
+                      <tr>
+                          <th class="w-15"><b>ANO</b></th>
+                          <th class="w-15"><b>MÊS</b></th>
+                          <th class="w-15"><b>%NA Atual</b></th>
+                          <th class="w-15"><b>%NA Meta</b></th>
+                          <th class="w-15"><b>Total de pedido não conforme</b></th>
+                          <th class="w-15"><b>Total de pedido faturado</b></th>
+                      </tr>
+                  </thead>
+                  <tbody>
                     <tr>
-                        <th class="w-15"><b>ANO</b></th>
-                        <th class="w-15"><b>MÊS</b></th>
-                        <th class="w-15"><b>%NA Atual</b></th>
-                        <th class="w-15"><b>%NA Meta</b></th>
-                        <th class="w-15"><b>Total de pedido não conforme</b></th>
-                        <th class="w-15"><b>Total de pedido faturado</b></th>
+                      <td>2023</td>
+                      <td>jan.</td>
+                      <td>98,75</td>
+                      <td>99</td>
+                      <td>24</td>
+                      <td>1.916</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>fev.</td>
+                      <td>99,13</td>
+                      <td>99</td>
+                      <td>16</td>
+                      <td>1.836</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>mar.</td>
+                      <td>98,96</td>
+                      <td>99</td>
+                      <td>20</td>
+                      <td>1.916</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>abr.</td>
+                      <td>98,65</td>
+                      <td>99</td>
+                      <td>25</td>
+                      <td>1.847</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>maio</td>
+                      <td>98,77</td>
+                      <td>99</td>
+                      <td>27</td>
+                      <td>2.198</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>jun.</td>
+                      <td>98,12</td>
+                      <td>99</td>
+                      <td>19</td>
+                      <td>2.154</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>jul.</td>
+                      <td>98,66</td>
+                      <td>99</td>
+                      <td>26</td>
+                      <td>1.947</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>ago.</td>
+                      <td>98,97</td>
+                      <td>99</td>
+                      <td>24</td>
+                      <td>2.336</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>set.</td>
+                      <td>99,19</td>
+                      <td>99</td>
+                      <td>18</td>
+                      <td>2.217</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>out.</td>
+                      <td>99,41</td>
+                      <td>99</td>
+                      <td>13</td>
+                      <td>2.220</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>nov.</td>
+                      <td>99,12</td>
+                      <td>99</td>
+                      <td>19</td>
+                      <td>2.158</td>
+                    </tr>
+                    <tr>
+                      <td>2023</td>
+                      <td>dez.</td>
+                      <td>99,48</td>
+                      <td>99</td>
+                      <td>9</td>
+                      <td>1.727</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <figcaption class="figure-caption text-center">Dados do nível de atendimento ao cliente utilizados para produção gráfica <br> Fonte: Senac EAD (2024)</figcaption>
+            </div>
+
+            <div class="print visually-hidden">
+              <table class="text-center align-middle mx-auto" style="border: 2px solid black; border-collapse: collapse;">
+                <thead class="tabela-impressao" style="border: 2px solid black; border-collapse: collapse;">
+                    <tr class="tabela-impressao">
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>ANO</b></td>
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>MÊS</b></td>
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>%NA Atual</b></td>
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>%NA Meta</b></td>
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>Total de pedido não conforme</b></td>
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>Total de pedido faturado</b></td>
                     </tr>
                 </thead>
-                <tbody>
-                  <tr>
-                    <td>2023</td>
-                    <td>jan.</td>
-                    <td>98,75</td>
-                    <td>99</td>
-                    <td>24</td>
-                    <td>1.916</td>
+                <tbody class="tabela-impressao">
+                  <tr class="tabela-impressao">
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">jan.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">98,75</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">24</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">1.916</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>fev.</td>
-                    <td>99,13</td>
-                    <td>99</td>
-                    <td>16</td>
-                    <td>1.836</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">fev.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99,13</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">16</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">1.836</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>mar.</td>
-                    <td>98,96</td>
-                    <td>99</td>
-                    <td>20</td>
-                    <td>1.916</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">mar.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">98,96</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">20</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">1.916</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>abr.</td>
-                    <td>98,65</td>
-                    <td>99</td>
-                    <td>25</td>
-                    <td>1.847</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">abr.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">98,65</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">25</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">1.847</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>maio</td>
-                    <td>98,77</td>
-                    <td>99</td>
-                    <td>27</td>
-                    <td>2.198</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">maio</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">98,77</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">27</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2.198</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>jun.</td>
-                    <td>98,12</td>
-                    <td>99</td>
-                    <td>19</td>
-                    <td>2.154</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">jun.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">98,12</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">19</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2.154</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>jul.</td>
-                    <td>98,66</td>
-                    <td>99</td>
-                    <td>26</td>
-                    <td>1.947</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">jul.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">98,66</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">26</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">1.947</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>ago.</td>
-                    <td>98,97</td>
-                    <td>99</td>
-                    <td>24</td>
-                    <td>2.336</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">ago.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">98,97</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">24</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2.336</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>set.</td>
-                    <td>99,19</td>
-                    <td>99</td>
-                    <td>18</td>
-                    <td>2.217</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">set.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99,19</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">18</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2.217</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>out.</td>
-                    <td>99,41</td>
-                    <td>99</td>
-                    <td>13</td>
-                    <td>2.220</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">out.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99,41</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">13</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2.220</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>nov.</td>
-                    <td>99,12</td>
-                    <td>99</td>
-                    <td>19</td>
-                    <td>2.158</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">nov.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99,12</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">19</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2.158</td>
                   </tr>
                   <tr>
-                    <td>2023</td>
-                    <td>dez.</td>
-                    <td>99,48</td>
-                    <td>99</td>
-                    <td>9</td>
-                    <td>1.727</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">2023</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">dez.</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99,48</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">99</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">9</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">1.727</td>
                   </tr>
                 </tbody>
               </table>
+              <figcaption class="figure-caption text-center">Dados do nível de atendimento ao cliente utilizados para produção gráfica <br> Fonte: Senac EAD (2024)</figcaption>
             </div>
-            <figcaption class="figure-caption text-center">Dados do nível de atendimento ao cliente utilizados para produção gráfica <br> Fonte: Senac EAD (2024)</figcaption>
 
             <div class="grafismo">
               <div class="destaque borda-colorida text-center">
@@ -668,7 +791,7 @@
               <b>Custo fixo</b> – O custo fixo é aquele que todo negócio tem e que não sofre alteração no caso de aumento de produção ou de vendas. Alguns exemplos são os custos com o aluguel do local onde a empresa está, salários, despesas com telefone, entre outros. Veja o modelo de tabela com um exemplo de controle de custo fixo: 
             </p>
 
-            <div class="table-responsive">
+            <div class="table-responsive no-print">
               <table class="text-left align-middle">
                 <thead>
                     <tr class="text-center">
@@ -716,8 +839,59 @@
                   </tr>
                 </tbody>
               </table>
+              <figcaption class="figure-caption text-center">Controle de custo fixo <br> Fonte: Senac EAD (2024)</figcaption>
             </div>
-            <figcaption class="figure-caption text-center">Controle de custo fixo <br> Fonte: Senac EAD (2024)</figcaption>
+
+            <div class="print visually-hidden" aria-hidden="true">
+              <table class="text-left align-middle mx-auto"  style="border: 2px solid black; border-collapse: collapse;">
+                <thead>
+                    <tr class="text-center">
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>Custo</b></th>
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>Orçado</b></th>
+                        <td style="border: 2px solid black; border-collapse: collapse;"><b>Realizado</b></th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Aluguéis</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">A>3.652</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">3.447</td>
+                  </tr>
+                  <tr>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Comunicação e gastos gerais</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">2.477</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">1.891</td>
+                  </tr>
+                  <tr>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Impostos e seguros</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">945.000</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">921.000</td>
+                  </tr>
+                  <tr>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Pessoas</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">51.232</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">45.588</td>
+                  </tr>
+                  <tr>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Serviços de terceiros</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">1.549</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">1.672</td>
+                  </tr>
+                  <tr>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Manutenção</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">10.232</td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;">11.627</td>
+                  </tr>
+                  <tr>
+                    <td style="border: 2px solid black; border-collapse: collapse;"><b>Total</b></td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;"><b>70.087</b></td>
+                    <td class="text-center" style="border: 2px solid black; border-collapse: collapse;"><b>65.146</b></td>
+                  </tr>
+                </tbody>
+              </table>
+              <figcaption class="figure-caption text-center">Controle de custo fixo <br> Fonte: Senac EAD (2024)</figcaption>
+            </div>
 
             <h4 id="indicadorAmbiental">Indicador ambiental</h4>
 
@@ -788,200 +962,397 @@
               É importante ter a clareza sobre os indicadores e seus objetivos. Veja uma lista de mais alguns exemplos para ajudar no seu conhecimento:
             </p>
 
-
-            <div class="table-responsive col-md-16">
-              <table class="text-center align-middle" style="font-size: 16px !important;">
-                <thead>
-                  <tr>
-                    <th><b>Nome do indicador</b></th>
-                    <th><b>Objetivo</b></th>
-                    <th><b>Fórmula</b></th>
-                    <th><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descrição&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></th>
-                    <th><b>Nível hierárquico</b> Estratégico, Tático, Operacional *</th>
-                    <th><b>Tipos</b> Qualidade, Produtividade, Financeiro, Ambiental, Segurança e Não Qualidade</th>
-                    <th><b>Dimensões</b> Quantitativo, Qualitativo </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Taxa de lucratividade </td>
-                    <td>Verificar a eficiência do negócio e se a empresa está gerando lucros. </td>
-                    <td>Índice de lucratividade = (Lucro líquido / Receita total) x 100% </td>
-                    <td>É a relação entre o valor do lucro líquido e o valor das vendas. É um número percentual. </td>
-                    <td>Estratégico </td>
-                    <td>Financeiro</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Lucro líquido </td>
-                    <td>Verificar quanto dinheiro a empresa ganhou (ou perdeu) em um determinado período.  </td>
-                    <td>Lucro líquido =  Receitas – Despesas variáveis – Despesas fixas </td>
-                    <td>É o resultado positivo após deduzir das vendas todos os custos e despesas. É um número absoluto. </td>
-                    <td>Estratégico </td>
-                    <td>Financeiro</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Satisfação de clientes (pesquisa de satisfação)</td>
-                    <td>Verificar se os clientes estão tendo interações positivas com o negócio.</td>
-                    <td>Péssimo, Ruim, Regular, Bom, Ótimo</td>
-                    <td>Cliente faz uma avaliação da sua satisfação com um produto, serviço ou com a empresa. É importante ter espaços para relatos qualitativos dos clientes.</td>
-                    <td>Estratégico</td>
-                    <td>Qualidade</td>
-                    <td>Qualitativo</td>
-                  <tr>
-                    <td>(Taxa) Satisfação de clientes</td>
-                    <td>Verificar a qualidade dos produtos e serviços oferecidos pela empresa. Identificar pontos fortes e áreas de melhoria.</td>
-                    <td>Taxa de satisfação de clientes = (Clientes satisfeitos / Total de clientes) x 100%</td>
-                    <td>É a relação entre a quantidade de clientes satisfeitos em relação ao total de clientes pesquisados. É um número percentual.</td>
-                    <td>Estratégico</td>
-                    <td>Qualidade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Rotatividade de pessoal ou <i>Turnover</i></td>
-                    <td>Verificar a taxa de rotatividade dos colaboradores.</td>
-                    <td><i>Turnover</i> geral = (([admissões + desligamentos mensais] / 2) / total de funcionários)) x 100%</td>
-                    <td>Relacionada à quantidade de desligamentos de colaboradores com a entrada de outros para substituí-los.</td>
-                    <td>Tático</td>
-                    <td>Produtividade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Índice de desenvolvimento de fornecedores</td>
-                    <td>Verificar qual é a economia gerada em negociações, fornecimentos e produtividade.</td>
-                    <td>Índice de desenvolvimento de fornecedores = [(Pedidos entregues no prazo / Total de pedidos) * 100 + (Itens em conformidade / Total de itens) * 100] / 2</td>
-                    <td>Geralmente é uma composição de dois ou mais indicadores do fornecedor.</td>
-                    <td>Tático</td>
-                    <td>Qualidade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Taxa de defeitos ou Taxa de refugos</td>
-                    <td>Verificar a qualidade do processo.</td>
-                    <td>Taxa de refugos = (peças refugadas/ peças produzidas) x 100%</td>
-                    <td>É a relação da quantidade de peças refugadas em relação às peças produzias. É um número percentual.</td>
-                    <td>Operacional</td>
-                    <td>Qualidade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Índice de acidentes de trabalho ou Índice relativo de acidentes (IRA)</td>
-                    <td>Avaliar o desempenho dos programas de segurança.</td>
-                    <td>IRA = (Nº de acidentes no mês / Nº de empregados ativos no mês)</td>
-                    <td>Mede o número de acidentes ocorridos em relação ao número total de empregados ativos no mês.</td>
-                    <td>Operacional</td>
-                    <td>Segurança</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Acidentes de trabalho ou Índice de frequência de acidentes de trabalho</td>
-                    <td>Avaliar o desempenho dos programas de segurança.</td>
-                    <td>(Nº de acidentes com afastamento x 1.000.000) / Nº de homens-hora trabalhada IRA (Índice Relativo de Acidentes) = Nº de acidentes no mês / Nº de empregados ativos no mês</td>
-                    <td>Mede a estimativa do número de acidentes com afastamento que os empregados podem sofrer nas próximas 1.000.000 de horas produtivas.</td>
-                    <td>Operacional</td>
-                    <td>Segurança</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Índice de retrabalhados</td>
-                    <td>Avaliar as perdas do processo</td>
-                    <td>Índice de retrabalhados  = (Número de produtos retrabalhados  / total produzido)</td>
-                    <td>Número de produtos retrabalhados diante do total produzido</td>
-                    <td>Operacional</td>
-                    <td>Qualidade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Taxa de adesão treinamentos</td>
-                    <td>A taxa de adesão tem como objetivo analisar a relação entre o número de pessoas convidadas a participar do treinamento e as que de fato aderiram ao curso.</td>
-                    <td>Taxa de adesão = (Nº de funcionários treinados / Nº total de funcionários) x 100% </td>
-                    <td>Mostra quantos funcionários foram treinados no universo da empresa. É adequado para demonstrar que as atividades planejadas foram executadas e os resultados estabelecidos foram alcançados. </td>
-                    <td>Tático/Operacional</td>
-                    <td>Qualidade</td>
-                    <td>Quantitativo</td>
-                  <tr>
-                    <td>PPM (ou partes por milhão)</td>
-                    <td>Buscar maior eficiência operacional.</td>
-                    <td>PPM = (Peças defeituosas / Total de peças produzidas) x 1.000.000</td>
-                    <td>Indicam o número de peças de não conformidade em seu processo, expresso em partes por milhão – busca o defeito zero.</td>
-                    <td>Operacional</td>
-                    <td>Não Qualidade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Índice de peças produzidas por hora</td>
-                    <td>Verificar a eficiência do processo.</td>
-                    <td>Índice de peças produzidas por hora = (Nº de peças produzidas / Total de horas)</td>
-                    <td>Mede a média de peças produzidas em uma hora. </td>
-                    <td>Operacional</td>
-                    <td>Produtividade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Taxa de defeitos por lote</td>
-                    <td>Analisar de forma mais focada os defeitos. </td>
-                    <td>Taxa de defeitos por lote = (Número de defeitos no lote / Tamanho do lote produzido) x 100%</td>
-                    <td>É o percentual de defeitos presentes no lote produzido.</td>
-                    <td>Operacional</td>
-                    <td>Qualidade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Índice de quebras</td>
-                    <td>Garantir a eficiência das manutenções dos processos.</td>
-                    <td>Índice de quebras = (Total de quebras ou perdas / Total utilizado ou produzido) x 100%</td>
-                    <td>Percentual de equipamentos quebrados, na Unidade de Produção, no período de um mês.</td>
-                    <td>Operacional</td>
-                    <td>Qualidade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td><i>Market share</i></td>
-                    <td>Compreender a posição da empresa em relação à concorrência e auxiliar na criação de estratégias para aumentar a fatia de mercado.</td>
-                    <td>
-                      <i>Market share</i> = (Nº de clientes conquistados / Nº de clientes potenciais) x 100%
-                      <hr>
-                      <i>Market share</i> = Total das vendas da sua empresa (em valores ou unidades) / Valor total das vendas do setor (em valores ou unidades) x 100
-                    </td>
-                    <td>Grau de participação de uma empresa no mercado em relação às vendas de um determinado produto;</td>
-                    <td>Estratégico</td>
-                    <td>Financeiro</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Resíduos sólidos gerados</td>
-                    <td>Controlar a geração dos resíduos a fim de garantir o máximo reaproveitamento.</td>
-                    <td>Quantidade de resíduos gerados (ton) / Produção total (ton)</td>
-                    <td>É a relação da quantidade de resíduos gerados pela quantidade produzida.</td>
-                    <td>Operacional</td>
-                    <td>Ambiental</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Consumo de água</td>
-                    <td>Garantir o uso sustentável da água. Controlar para que não tenha vazamentos e desperdícios.</td>
-                    <td>Quantidade consumida (m³) / Produção total (ton)</td>
-                    <td>É a relação da quantidade consumida de água pela quantidade produzida.</td>
-                    <td>Operacional</td>
-                    <td>Ambiental</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                  <tr>
-                    <td>Absenteísmo</td>
-                    <td>Verificar a taxa de afastamentos/ausências no trabalho.</td>
-                    <td>Taxa de absenteísmo = ((Horas perdidas / (Horas trabalhadas + Horas perdidas)) x 100%</td>
-                    <td>Relação do grau de ausência ao trabalho x horas trabalhadas (total de horas trabalhadas no fechamento da folha de pagamento).</td>
-                    <td>Estratégico/ Tático/ Operacional</td>
-                    <td>Produtividade</td>
-                    <td>Quantitativo</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="no-print">
+              <div class="table-responsive col-md-16">
+                <table class="text-center align-middle" style="font-size: 16px !important;">
+                  <thead>
+                    <tr>
+                      <th><b>Nome do indicador</b></th>
+                      <th><b>Objetivo</b></th>
+                      <th><b>Fórmula</b></th>
+                      <th><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descrição&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></th>
+                      <th><b>Nível hierárquico</b> Estratégico, Tático, Operacional *</th>
+                      <th><b>Tipos</b> Qualidade, Produtividade, Financeiro, Ambiental, Segurança e Não Qualidade</th>
+                      <th><b>Dimensões</b> Quantitativo, Qualitativo </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Taxa de lucratividade </td>
+                      <td>Verificar a eficiência do negócio e se a empresa está gerando lucros. </td>
+                      <td>Índice de lucratividade = (Lucro líquido / Receita total) x 100% </td>
+                      <td>É a relação entre o valor do lucro líquido e o valor das vendas. É um número percentual. </td>
+                      <td>Estratégico </td>
+                      <td>Financeiro</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Lucro líquido </td>
+                      <td>Verificar quanto dinheiro a empresa ganhou (ou perdeu) em um determinado período.  </td>
+                      <td>Lucro líquido =  Receitas – Despesas variáveis – Despesas fixas </td>
+                      <td>É o resultado positivo após deduzir das vendas todos os custos e despesas. É um número absoluto. </td>
+                      <td>Estratégico </td>
+                      <td>Financeiro</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Satisfação de clientes (pesquisa de satisfação)</td>
+                      <td>Verificar se os clientes estão tendo interações positivas com o negócio.</td>
+                      <td>Péssimo, Ruim, Regular, Bom, Ótimo</td>
+                      <td>Cliente faz uma avaliação da sua satisfação com um produto, serviço ou com a empresa. É importante ter espaços para relatos qualitativos dos clientes.</td>
+                      <td>Estratégico</td>
+                      <td>Qualidade</td>
+                      <td>Qualitativo</td>
+                    <tr>
+                      <td>(Taxa) Satisfação de clientes</td>
+                      <td>Verificar a qualidade dos produtos e serviços oferecidos pela empresa. Identificar pontos fortes e áreas de melhoria.</td>
+                      <td>Taxa de satisfação de clientes = (Clientes satisfeitos / Total de clientes) x 100%</td>
+                      <td>É a relação entre a quantidade de clientes satisfeitos em relação ao total de clientes pesquisados. É um número percentual.</td>
+                      <td>Estratégico</td>
+                      <td>Qualidade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Rotatividade de pessoal ou <i>Turnover</i></td>
+                      <td>Verificar a taxa de rotatividade dos colaboradores.</td>
+                      <td><i>Turnover</i> geral = (([admissões + desligamentos mensais] / 2) / total de funcionários)) x 100%</td>
+                      <td>Relacionada à quantidade de desligamentos de colaboradores com a entrada de outros para substituí-los.</td>
+                      <td>Tático</td>
+                      <td>Produtividade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Índice de desenvolvimento de fornecedores</td>
+                      <td>Verificar qual é a economia gerada em negociações, fornecimentos e produtividade.</td>
+                      <td>Índice de desenvolvimento de fornecedores = [(Pedidos entregues no prazo / Total de pedidos) * 100 + (Itens em conformidade / Total de itens) * 100] / 2</td>
+                      <td>Geralmente é uma composição de dois ou mais indicadores do fornecedor.</td>
+                      <td>Tático</td>
+                      <td>Qualidade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Taxa de defeitos ou Taxa de refugos</td>
+                      <td>Verificar a qualidade do processo.</td>
+                      <td>Taxa de refugos = (peças refugadas/ peças produzidas) x 100%</td>
+                      <td>É a relação da quantidade de peças refugadas em relação às peças produzias. É um número percentual.</td>
+                      <td>Operacional</td>
+                      <td>Qualidade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Índice de acidentes de trabalho ou Índice relativo de acidentes (IRA)</td>
+                      <td>Avaliar o desempenho dos programas de segurança.</td>
+                      <td>IRA = (Nº de acidentes no mês / Nº de empregados ativos no mês)</td>
+                      <td>Mede o número de acidentes ocorridos em relação ao número total de empregados ativos no mês.</td>
+                      <td>Operacional</td>
+                      <td>Segurança</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Acidentes de trabalho ou Índice de frequência de acidentes de trabalho</td>
+                      <td>Avaliar o desempenho dos programas de segurança.</td>
+                      <td>(Nº de acidentes com afastamento x 1.000.000) / Nº de homens-hora trabalhada IRA (Índice Relativo de Acidentes) = Nº de acidentes no mês / Nº de empregados ativos no mês</td>
+                      <td>Mede a estimativa do número de acidentes com afastamento que os empregados podem sofrer nas próximas 1.000.000 de horas produtivas.</td>
+                      <td>Operacional</td>
+                      <td>Segurança</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Índice de retrabalhados</td>
+                      <td>Avaliar as perdas do processo</td>
+                      <td>Índice de retrabalhados  = (Número de produtos retrabalhados  / total produzido)</td>
+                      <td>Número de produtos retrabalhados diante do total produzido</td>
+                      <td>Operacional</td>
+                      <td>Qualidade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Taxa de adesão treinamentos</td>
+                      <td>A taxa de adesão tem como objetivo analisar a relação entre o número de pessoas convidadas a participar do treinamento e as que de fato aderiram ao curso.</td>
+                      <td>Taxa de adesão = (Nº de funcionários treinados / Nº total de funcionários) x 100% </td>
+                      <td>Mostra quantos funcionários foram treinados no universo da empresa. É adequado para demonstrar que as atividades planejadas foram executadas e os resultados estabelecidos foram alcançados. </td>
+                      <td>Tático/Operacional</td>
+                      <td>Qualidade</td>
+                      <td>Quantitativo</td>
+                    <tr>
+                      <td>PPM (ou partes por milhão)</td>
+                      <td>Buscar maior eficiência operacional.</td>
+                      <td>PPM = (Peças defeituosas / Total de peças produzidas) x 1.000.000</td>
+                      <td>Indicam o número de peças de não conformidade em seu processo, expresso em partes por milhão – busca o defeito zero.</td>
+                      <td>Operacional</td>
+                      <td>Não Qualidade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Índice de peças produzidas por hora</td>
+                      <td>Verificar a eficiência do processo.</td>
+                      <td>Índice de peças produzidas por hora = (Nº de peças produzidas / Total de horas)</td>
+                      <td>Mede a média de peças produzidas em uma hora. </td>
+                      <td>Operacional</td>
+                      <td>Produtividade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Taxa de defeitos por lote</td>
+                      <td>Analisar de forma mais focada os defeitos. </td>
+                      <td>Taxa de defeitos por lote = (Número de defeitos no lote / Tamanho do lote produzido) x 100%</td>
+                      <td>É o percentual de defeitos presentes no lote produzido.</td>
+                      <td>Operacional</td>
+                      <td>Qualidade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Índice de quebras</td>
+                      <td>Garantir a eficiência das manutenções dos processos.</td>
+                      <td>Índice de quebras = (Total de quebras ou perdas / Total utilizado ou produzido) x 100%</td>
+                      <td>Percentual de equipamentos quebrados, na Unidade de Produção, no período de um mês.</td>
+                      <td>Operacional</td>
+                      <td>Qualidade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td><i>Market share</i></td>
+                      <td>Compreender a posição da empresa em relação à concorrência e auxiliar na criação de estratégias para aumentar a fatia de mercado.</td>
+                      <td>
+                        <i>Market share</i> = (Nº de clientes conquistados / Nº de clientes potenciais) x 100%
+                        <hr>
+                        <i>Market share</i> = Total das vendas da sua empresa (em valores ou unidades) / Valor total das vendas do setor (em valores ou unidades) x 100
+                      </td>
+                      <td>Grau de participação de uma empresa no mercado em relação às vendas de um determinado produto;</td>
+                      <td>Estratégico</td>
+                      <td>Financeiro</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Resíduos sólidos gerados</td>
+                      <td>Controlar a geração dos resíduos a fim de garantir o máximo reaproveitamento.</td>
+                      <td>Quantidade de resíduos gerados (ton) / Produção total (ton)</td>
+                      <td>É a relação da quantidade de resíduos gerados pela quantidade produzida.</td>
+                      <td>Operacional</td>
+                      <td>Ambiental</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Consumo de água</td>
+                      <td>Garantir o uso sustentável da água. Controlar para que não tenha vazamentos e desperdícios.</td>
+                      <td>Quantidade consumida (m³) / Produção total (ton)</td>
+                      <td>É a relação da quantidade consumida de água pela quantidade produzida.</td>
+                      <td>Operacional</td>
+                      <td>Ambiental</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td>Absenteísmo</td>
+                      <td>Verificar a taxa de afastamentos/ausências no trabalho.</td>
+                      <td>Taxa de absenteísmo = ((Horas perdidas / (Horas trabalhadas + Horas perdidas)) x 100%</td>
+                      <td>Relação do grau de ausência ao trabalho x horas trabalhadas (total de horas trabalhadas no fechamento da folha de pagamento).</td>
+                      <td>Estratégico/ Tático/ Operacional</td>
+                      <td>Produtividade</td>
+                      <td>Quantitativo</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <figcaption class="figure-caption">*Obs.: a classificação pode variar dependendo do ramo, dos objetivos e das necessidades das empresas.</figcaption>
+              <br>
+              <figcaption class="figure-caption text-center">Indicadores e seus objetivos <br> Fonte: Senac EAD (2024)</figcaption>
             </div>
-            <figcaption class="figure-caption">*Obs.: a classificação pode variar dependendo do ramo, dos objetivos e das necessidades das empresas.</figcaption>
-            <br>
-            <figcaption class="figure-caption text-center">Indicadores e seus objetivos <br> Fonte: Senac EAD (2024)</figcaption>
+            
+            <div class="print visually-hidden" aria-hidden="true">
+              <div class="table-responsive col-md-16">
+                <table class="text-center align-middle" style="font-size: 12px !important;border: 2px solid black; border-collapse: collapse;">
+                  <thead>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><b>Nome do indicador</b></td>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><b>Objetivo</b></td>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><b>Fórmula</b></td>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Descrição&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><b>Nível hierárquico</b> Estratégico, Tático, Operacional *</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><b>Tipos</b> Qualidade, Produtividade, Financeiro, Ambiental, Segurança e Não Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><b>Dimensões</b> Quantitativo, Qualitativo </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de lucratividade </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar a eficiência do negócio e se a empresa está gerando lucros. </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de lucratividade = (Lucro líquido / Receita total) x 100% </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">É a relação entre o valor do lucro líquido e o valor das vendas. É um número percentual. </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Estratégico </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Financeiro</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Lucro líquido </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar quanto dinheiro a empresa ganhou (ou perdeu) em um determinado período.  </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Lucro líquido =  Receitas – Despesas variáveis – Despesas fixas </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">É o resultado positivo após deduzir das vendas todos os custos e despesas. É um número absoluto. </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Estratégico </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Financeiro</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Satisfação de clientes (pesquisa de satisfação)</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar se os clientes estão tendo interações positivas com o negócio.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Péssimo, Ruim, Regular, Bom, Ótimo</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Cliente faz uma avaliação da sua satisfação com um produto, serviço ou com a empresa. É importante ter espaços para relatos qualitativos dos clientes.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Estratégico</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualitativo</td>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">(Taxa) Satisfação de clientes</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar a qualidade dos produtos e serviços oferecidos pela empresa. Identificar pontos fortes e áreas de melhoria.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de satisfação de clientes = (Clientes satisfeitos / Total de clientes) x 100%</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">É a relação entre a quantidade de clientes satisfeitos em relação ao total de clientes pesquisados. É um número percentual.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Estratégico</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Rotatividade de pessoal ou <i>Turnover</i></td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar a taxa de rotatividade dos colaboradores.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><i>Turnover</i> geral = (([admissões + desligamentos mensais] / 2) / total de funcionários)) x 100%</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Relacionada à quantidade de desligamentos de colaboradores com a entrada de outros para substituí-los.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Tático</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Produtividade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de desenvolvimento de fornecedores</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar qual é a economia gerada em negociações, fornecimentos e produtividade.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de desenvolvimento de fornecedores = [(Pedidos entregues no prazo / Total de pedidos) * 100 + (Itens em conformidade / Total de itens) * 100] / 2</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Geralmente é uma composição de dois ou mais indicadores do fornecedor.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Tático</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de defeitos ou Taxa de refugos</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar a qualidade do processo.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de refugos = (peças refugadas/ peças produzidas) x 100%</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">É a relação da quantidade de peças refugadas em relação às peças produzias. É um número percentual.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de acidentes de trabalho ou Índice relativo de acidentes (IRA)</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Avaliar o desempenho dos programas de segurança.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">IRA = (Nº de acidentes no mês / Nº de empregados ativos no mês)</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Mede o número de acidentes ocorridos em relação ao número total de empregados ativos no mês.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Segurança</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Acidentes de trabalho ou Índice de frequência de acidentes de trabalho</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Avaliar o desempenho dos programas de segurança.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">(Nº de acidentes com afastamento x 1.000.000) / Nº de homens-hora trabalhada IRA (Índice Relativo de Acidentes) = Nº de acidentes no mês / Nº de empregados ativos no mês</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Mede a estimativa do número de acidentes com afastamento que os empregados podem sofrer nas próximas 1.000.000 de horas produtivas.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Segurança</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de retrabalhados</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Avaliar as perdas do processo</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de retrabalhados  = (Número de produtos retrabalhados  / total produzido)</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Número de produtos retrabalhados diante do total produzido</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de adesão treinamentos</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">A taxa de adesão tem como objetivo analisar a relação entre o número de pessoas convidadas a participar do treinamento e as que de fato aderiram ao curso.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de adesão = (Nº de funcionários treinados / Nº total de funcionários) x 100% </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Mostra quantos funcionários foram treinados no universo da empresa. É adequado para demonstrar que as atividades planejadas foram executadas e os resultados estabelecidos foram alcançados. </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Tático/Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">PPM (ou partes por milhão)</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Buscar maior eficiência operacional.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">PPM = (Peças defeituosas / Total de peças produzidas) x 1.000.000</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Indicam o número de peças de não conformidade em seu processo, expresso em partes por milhão – busca o defeito zero.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Não Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de peças produzidas por hora</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar a eficiência do processo.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de peças produzidas por hora = (Nº de peças produzidas / Total de horas)</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Mede a média de peças produzidas em uma hora. </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Produtividade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de defeitos por lote</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Analisar de forma mais focada os defeitos. </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de defeitos por lote = (Número de defeitos no lote / Tamanho do lote produzido) x 100%</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">É o percentual de defeitos presentes no lote produzido.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de quebras</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Garantir a eficiência das manutenções dos processos.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Índice de quebras = (Total de quebras ou perdas / Total utilizado ou produzido) x 100%</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Percentual de equipamentos quebrados, na Unidade de Produção, no período de um mês.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Qualidade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;"><i>Market share</i></td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Compreender a posição da empresa em relação à concorrência e auxiliar na criação de estratégias para aumentar a fatia de mercado.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">
+                        <i>Market share</i> = (Nº de clientes conquistados / Nº de clientes potenciais) x 100%
+                        <hr>
+                        <i>Market share</i> = Total das vendas da sua empresa (em valores ou unidades) / Valor total das vendas do setor (em valores ou unidades) x 100
+                      </td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Grau de participação de uma empresa no mercado em relação às vendas de um determinado produto;</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Estratégico</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Financeiro</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Resíduos sólidos gerados</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Controlar a geração dos resíduos a fim de garantir o máximo reaproveitamento.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantidade de resíduos gerados (ton) / Produção total (ton)</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">É a relação da quantidade de resíduos gerados pela quantidade produzida.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Ambiental</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Consumo de água</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Garantir o uso sustentável da água. Controlar para que não tenha vazamentos e desperdícios.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantidade consumida (m³) / Produção total (ton)</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">É a relação da quantidade consumida de água pela quantidade produzida.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Ambiental</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Absenteísmo</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Verificar a taxa de afastamentos/ausências no trabalho.</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Taxa de absenteísmo = ((Horas perdidas / (Horas trabalhadas + Horas perdidas)) x 100%</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Relação do grau de ausência ao trabalho x horas trabalhadas (total de horas trabalhadas no fechamento da folha de pagamento).</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Estratégico/ Tático/ Operacional</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Produtividade</td>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Quantitativo</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <figcaption class="figure-caption">*Obs.: a classificação pode variar dependendo do ramo, dos objetivos e das necessidades das empresas.</figcaption>
+              <br>
+              <figcaption class="figure-caption text-center">Indicadores e seus objetivos <br> Fonte: Senac EAD (2024)</figcaption>
+            </div>
           
             <div class="encerramento">
               <h3 id="encerramento">Encerramento</h3>
