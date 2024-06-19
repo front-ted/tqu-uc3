@@ -87,3 +87,33 @@
     background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg04.png') fixed !important;
 
 }
+
+
+
+@media screen and (max-width:500px) {
+
+    .btn-estrategico{
+        
+        height: 116px;
+        width: 221px;
+        margin-left: 10px;
+    }
+    
+    .btn-tatico{
+        
+        height: 96px;
+        width: 310px;
+        margin-left: -15px;
+    }
+    
+    .btn-operacional{
+        
+        height: 95px;
+        width: 392px;
+        margin-left: -25px;
+    }
+
+}
+
+
+

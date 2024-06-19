@@ -140,9 +140,14 @@ p {
     display: block;
     position: fixed;
     bottom: 40px;
-    right: 10px;
+    left: 10px;
     z-index: 900;
 }
+
+
+
+
+
 
 .voltar-topo:hover {
     transform: scale(1.1);
@@ -963,7 +968,7 @@ tbody td:first-child {
     height: 42px;
     position: fixed;
     z-index: 900;
-    right: 10px;
+    left: 10px;
     bottom: 90px;
     cursor: pointer;
     transition: all 0.4s;
@@ -1092,6 +1097,5 @@ tbody td:first-child {
         background-size: 47%, 14%;
         background-position: left -155px center, right 5% center;
     }
-    .voltar-topo {right: unset; left: 10px;}
-    .btn-tema_pagina {right: unset; left: 10px;}
+    
 }

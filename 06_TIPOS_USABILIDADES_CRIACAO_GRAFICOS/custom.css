@@ -9,3 +9,19 @@
 .carousel-item img{
     margin: auto;
 }
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}
