@@ -42,6 +42,19 @@
     border: 1px solid black;
   }
 
+  #desafio{
+    overflow: hidden;
+    width: 100%;
+  }
+
+
+  @media screen and (max-width:750px) {
+
+
+  .esquemaDaBru .alt-c, .esquemaDaBru .alt-e{
+    margin-left: 40px;
+  }
+}
 
 @media screen and (max-width:500px) {
 
