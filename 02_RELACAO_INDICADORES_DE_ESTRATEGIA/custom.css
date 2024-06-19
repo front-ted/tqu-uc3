@@ -19,21 +19,21 @@
 }
 
 .btn-estrategico{
-    background-image: url('images/bt_estrategico.png');
+    background-image: url('img/bt_estrategico.png');
     height: 116px;
     width: 221px;
     margin-left: 10px;
 }
 
 .btn-tatico{
-    background-image: url('images/bt_tatico.png');
+    background-image: url('img/bt_tatico.png');
     height: 96px;
     width: 310px;
     margin-left: -15px;
 }
 
 .btn-operacional{
-    background-image: url('images/bt_operacional.png');
+    background-image: url('img/bt_operacional.png');
     height: 95px;
     width: 392px;
     margin-left: -35px;
@@ -45,7 +45,7 @@
 }
 
 .bg1{
-    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg01.png') fixed;
+    background: url('img/bg01.png') fixed;
 }
 
 
@@ -54,37 +54,37 @@
 }
 
 .modal-estrategico{
-    background-image: url('images/titulo_modal_estrategico.png');
+    background-image: url('img/titulo_modal_estrategico.png');
     background-size: cover;
 }
 
 .modal-tatico{
-    background-image: url('images/titulo_modal_tatico.png');
+    background-image: url('img/titulo_modal_tatico.png');
     background-size: cover;
 }
 
 .modal-operacional{
-    background-image: url('images/titulo_modal_operacional.png');
+    background-image: url('img/titulo_modal_operacional.png');
     background-size: cover;
 }
 
 
 .bloco2{
-    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg01.png') fixed !important;
+    background: url('img/bg01.png') fixed !important;
 }
 
 .bloco4{
-    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg02.png') fixed !important;
+    background: url('img/bg02.png') fixed !important;
 
 }
 
 .bloco6{
-    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg03.png') fixed !important;
+    background: url('img/bg03.png') fixed !important;
 
 }
 
 .bloco8{
-    background: url('../02_RELACAO_INDICADORES_DE_ESTRATEGIA/images/bg04.png') fixed !important;
+    background: url('img/bg04.png') fixed !important;
 
 }
 

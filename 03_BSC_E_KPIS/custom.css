@@ -3,7 +3,7 @@
 }
 
 .mapa-estrategico{
-    background: url(images/bg_mapa_estrategico.png) no-repeat;
+    background: url(img/bg_mapa_estrategico.png) no-repeat;
     background-size: cover;
     height: 800px;
     width: 300px;
@@ -41,7 +41,7 @@
 
 
 .botao-direcionadores::before{
-    content: url('images/bt_1.png'); 
+    content: url('img/bt_1.png'); 
     
 }
 
@@ -50,19 +50,19 @@
 }
 
 .botao-temas::before{
-    content: url('images/bt_2.png'); 
+    content: url('img/bt_2.png'); 
 }
 
 .botao-perspectivas::before{
-    content: url('images/bt_3.png');
+    content: url('img/bt_3.png');
 }
 
 .botao-objetivos::before{
-    content: url('images/bt_4.png');
+    content: url('img/bt_4.png');
 }
 
 .botao-causa-e-efeito::before{
-    content: url('images/bt_5.png');
+    content: url('img/bt_5.png');
 }
 
 
