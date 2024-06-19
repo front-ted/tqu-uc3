@@ -43,12 +43,12 @@ body {
     transition: all 0.8s;
 }
 
-/* .topo-logo {
+.topo-logo {
     background: url('../images/asset_circulo.svg') no-repeat left -25px center,
         url('../images/senac_logo.svg') no-repeat right 5% center;
     background-size: auto, 70px;
     height: 80px;
-} */
+}
 
 .bloco {
     padding: 40px 0;
