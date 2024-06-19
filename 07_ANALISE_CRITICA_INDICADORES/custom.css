@@ -19,12 +19,17 @@
     color: black;
 }
 
+.mobile{
+    display: none;
+}
 
 .bg-escuro .li-normal .custom-bullet li{
     color: white;
 }
 
-
+.hipoteses li{
+    margin-bottom: 20px;
+}
 .bloco2,
 .bloco6{
     /* background-color:  var(--cor-secundaria); */
