@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <!-- Inserir o tíutlo do conhecimento na tag title -->
-        <title>Tipos, usabilidades e criação de gráficos por planilha eletrônica: gráfico de barras, gráfico de pizza, gráfico de linha</title>
+        <title>Tipos, usabilidades e criação de gráficos por planilha eletrônica: gráfico de barras, gráfico de <i>pizza</i>, gráfico de linha</title>
         <!-- Meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -75,9 +75,11 @@
 
         <section class="paginas">
 
-          <div class="pagina container">
+          <div class="pagina">
 
-            <h2>Tipos, usabilidades e criação de gráficos por planilha eletrônica: gráfico de barras, gráfico de pizza, gráfico de linha</h2>
+            <div class="container">
+            
+            <h2>Tipos, usabilidades e criação de gráficos por planilha eletrônica: gráfico de barras, gráfico de <i>pizza</i>, gráfico de linha</h2>
 
             <h3 id="titulo1">Introdução</h3>
 
@@ -316,151 +318,134 @@
                 
             </div>
 
-            <h4 id="titulo3">Gráfico de linha ou de curva</h4>
+            <h4 id="titulo3" class="titulo-grafico">Gráfico de linha ou de curva</h4>
 
             <p>
               Neste tipo de gráfico, os pontos são conectados por linhas ou curvas. É comum sua utilização para observar a variação dos dados ao longo do tempo (horas, dias, meses, anos) ou em diferentes categorias. Também são utilizados para identificar padrões em conjuntos de dados. Sua representação facilita a observação de tendências como de crescimento, decrescimento ou padrões sazonais. Confira alguns exemplos.
             </p>
+            <p class="acessivel no-print">
+              Clique ou toque nas setas para visualizar o conteúdo.
+            </p>
+            </div>      
 
-            <div id="splide1" class="container-fluid imgsCarrosel">
-              <div class="splide" role="group">
-                  <div class="splide__track">
-                      <ul class="splide__list">
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig1.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em linhas ou curvas <br> Fonte: IBGE (2023, p. 13) </p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig2.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em linhas ou curvas <br> Fonte: Sebrae (2023) </p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig3.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em linhas ou curvas <br> Fonte: Senac EAD (2024)</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig4.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em linhas ou curvas <br> Fonte: Senac EAD (2024)</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig5.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em linhas ou curvas <br> Fonte: Senac EAD (2024)</p>
-                                  </div>
-                              </div>
-                          </li>
-                      </ul>
-                  </div>
+            <div class="container-fluid no-print">
+              <div class="splide" role="group" id="splide01">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="card">
+                          <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide01/slide01.png">
+                      </div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="card">
+                          <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide01/slide02.png">
+                      </div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="card">
+                          <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide01/slide03.png">
+                      </div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="card">
+                          <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide01/slide04.png">
+                      </div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="card">
+                          <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide01/slide05.png">
+                      </div>
+                  </li>
+                  </ul>
+                </div>
               </div>
             </div>
             
 
-              <div class="acessivel print visually-hidden">
+            <div class="acessivel print visually-hidden">
 
               <p>Gráfico aplicado à demonstração de produtividade de trigo no Brasil. </p>
-              <img class="img-fluid d-block borda-colorida" src="img/fig1.png">
+              <img class="img-fluid d-block borda-colorida" src="img/slide01/slide01.png">
               <figcaption class="figure-caption text-center">Exemplo de gráfico em linhas ou curvas <br> Fonte: IBGE (2023, p. 13) </figcaption>
-              <p>
+              <p class="no-print">
                 No eixo x estão os anos de 1975 a 2023. No eixo y à esquerda está uma escala de 0 a 18 milhões de hectares. No eixo y à direita está uma escala de 0 a 11 milhões de toneladas de trigo. No plano do gráfico estão representadas duas variáveis, a área e a produção. A área é representada por uma linha verde e sua intersecção é entre o eixo x e o eixo y à esquerda. A produção é representada por uma linha vermelha e sua intersecção é entre o eixo x e o eixo y à direita. Como resultado, é possível notar que há um aumento na produção de trigo por hectare ao longo dos anos.
               </p>
                     
               <p>Gráfico aplicado à demonstração do número de micro e pequenas empresas abertas nos primeiros trimestres de 2019 a 2023 (escala em milhares).</p>
-              <img class="img-fluid d-block borda-colorida" src="img/fig2.png">
+              <img class="img-fluid d-block borda-colorida" src="img/slide01/slide02.png">
               <figcaption class="figure-caption text-center">Exemplo de gráfico em linhas ou curvas <br> Fonte: Sebrae (2023) </figcaption>
-              <p>
+              <p class="no-print">
                 No eixo x estão os anos de 2019 a 2023. No eixo y está o número de empresas em milhares. No plano do gráfico estão representadas três variáveis, microempresa, empresa de pequeno porte e a soma total. Como resultado, é possível notar que há um aumento na abertura de empresas de ambos os portes.
               </p>
                     
               <p>Gráfico de linhas aplicado ao monitoramento do resultado financeiro anual. Estão representadas duas variáveis: o faturamento e o lucro.</p>
-              <img class="img-fluid d-block borda-colorida" src="img/fig3.png">
+              <img class="img-fluid d-block borda-colorida" src="img/slide01/slide03.png">
               <figcaption class="figure-caption text-center">Exemplo de gráfico em linhas ou curvas <br> Fonte: Senac EAD (2024) </figcaption>
-              <p>
+              <p class="no-print">
                 No eixo x estão identificados os meses do ano de janeiro a dezembro. No eixo y há uma escala numérica de 0 a 5 milhões de reais. No plano do gráfico estão representadas duas variáveis, o faturamento e o lucro. Cada variável é representada por uma linha que une os pontos de intersecção. Cada ponto de intersecção corresponde a um mês do ano e a um valor em milhões de reais. Como resultado, o gráfico demonstra uma tendência de crescimento do faturamento e do lucro durante o ano calendário.
               </p>
-                   
+                    
               <p>Gráfico de curvas aplicado à inspeção de peças por meio da sua medição em centímetros. Os dados dentro do quadrado em destaque estão dentro do padrão (conformes).</p>
-              <img class="img-fluid d-block borda-colorida" src="img/fig4.png">
+              <img class="img-fluid d-block borda-colorida" src="img/slide01/slide04.png">
               <figcaption class="figure-caption text-center">Exemplo de gráfico em linhas ou curvas <br> Fonte: Senac EAD (2024) </figcaption>
-              <p>
+              <p class="no-print">
                 No eixo x estão identificadas as medidas das peças, variando de 29 a 32 cm. No eixo y há uma escala numérica de 0 a 30, que representa a frequência das medições. No plano do gráfico, os dados são representados por uma linha que liga os pontos de intersecção. Cada ponto corresponde ao número de peças que foram inspecionadas com a medida equivalente. Como resultado, o gráfico demonstra uma distribuição normal com o pico em 30,5 centímetros e com a maioria das peças dentro da conformidade.
               </p>
                     
               <p>A ferramenta de controle estatístico de processo (CEP) é um gráfico em linhas ou curvas. No exemplo, demonstra-se o monitoramento da temperatura em função do tempo em um processo fictício. A aplicação do CEP prevê a definição de limites de controle superior (LCS) e inferior (LCI), que representam a variabilidade natural do processo, baseados em cálculos estatísticos. O objetivo é detectar variações anormais no processo (fora dos limites).</p>
-              <img class="img-fluid d-block borda-colorida" src="img/fig5.png">
+              <img class="img-fluid d-block borda-colorida" src="img/slide01/slide05.png">
               <figcaption class="figure-caption text-center">Exemplo de gráfico em linhas ou curvas <br> Fonte: Senac EAD (2024) </figcaption>
-              <p>
+              <p class="no-print">
                 No eixo x está identificado o tempo de 0 a 330 minutos. No eixo y há uma escala numérica de -2 a 7 °C. Há ainda 3 linhas fixas, a do LCS está em 5 °C, a do LC que está em 2,5 °C e a do LCI que está em 0 °C. No plano do gráfico, os dados são representados por uma linha que liga os pontos de intersecção. Cada ponto corresponde a uma temperatura em função do tempo. Como resultado, observa-se que alguns pontos estão dentro do limite de controle e outros não. Dessa forma é possível concluir que existem parâmetros variando neste processo.
               </p>
+                
+            </div>
+
+            <div class="container">
+
+            
+              <h4 id="titulo4" class="titulo-grafico">Gráfico de barras ou de colunas</h4>
+
+              <p>
+                Nos gráficos em barras, os dados são representados de forma proporcional por retângulos no sentido horizontal (barras) ou vertical (colunas). É utilizado para comparar resultados de diferentes categorias.
+              </p>
+
+              <p class="acessivel no-print">
+                Clique ou toque nas setas para visualizar o conteúdo.
+              </p>
+
+            </div>
+
+            
+                
+            <div class="container-fluid no-print">
+              <div class="splide" role="group" id="splide02">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="card">
+                          <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide02/slide01_1.png">
+                      </div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="card">
+                          <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide02/slide02_1.png">
+                      </div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="card">
+                        <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide02/slide03_1.png">
+                      </div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="card">
+                        <img class="card-img-top img-fluid d-block borda-colorida" src="img/slide02/slide04_1.png">
+                      </div>
+                  </li>
                   
-              </div>
-
-            <h4 id="titulo4">Gráfico de barras ou de colunas</h4>
-
-            <p>
-              Nos gráficos em barras, os dados são representados de forma proporcional por retângulos no sentido horizontal (barras) ou vertical (colunas). É utilizado para comparar resultados de diferentes categorias.
-            </p>
-
-
-            <!-- <div class="no-print" aria-hidden="true">
-
-              <p>Clique ou toque nas setas para visualizar o conteúdo.</p> -->
-              
-            <div  class="container-fluid imgsCarrosel">
-              <div  id="splide2" class="splide" role="group">
-                  <div class="splide__track">
-                      <ul class="splide__list">
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig6.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em barras <br> Fonte: MTE <i>apud</i> Observatório Fiesc (2023b)  </p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig7.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em colunas<br>Fonte: Sebrae Minas <i>apud</i> Educampo (2022)  </p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig8.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em linhas ou curvas <br> Fonte: Senac EAD (2024)</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="card">
-                                  <img class="card-img-top img-fluid d-block borda-colorida" src="img/fig9.png">
-                                  <div class="card-body">
-                                      <p class="card-text">Exemplo de gráfico em colunas<br>Fonte: Senac EAD (2024)</p>
-                                  </div>
-                              </div>
-                          </li>
-                          
-                      </ul>
-                  </div>
+                  </ul>
+                </div>
               </div>
             </div>
 
@@ -500,7 +485,7 @@
             </p>
 
             <div class="container-fluid imgsCarrosel">
-              <div  id="splide3" class="splide" role="group">
+              <div class="splide" role="group">
                   <div class="splide__track">
                       <ul class="splide__list">
                           <li class="splide__slide">
