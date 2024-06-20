@@ -614,8 +614,8 @@
                 </div>
                 <figcaption class="figure-caption text-center no-print">Ficha de indicadores <br> Fonte: Senac EAD (2024)</figcaption>
 
-                <div class="table-responsive print visually-hidden" aria-hidden="true" style="border: 2px solid black; border-collapse: collapse;">
-                  <table class="align-middle">
+                <div class="table-responsive print visually-hidden" aria-hidden="true" >
+                  <table class="align-middle" style="border: 2px solid black; border-collapse: collapse;">
                       <tr>
                         <td style="border: 2px solid black; border-collapse: collapse;">Nome</td>
                         <td style="border: 2px solid black; border-collapse: collapse; width: 500px;"></td>
@@ -865,30 +865,47 @@
                     </tr>
                   </table>
                 </div>
-                <figcaption class="figure-caption text-center no-print">Série histórica mensal<br> Fonte: Senac EAD (2024)</figcaption>
+                <figcaption class="figure-caption text-center print">Série histórica mensal<br> Fonte: Senac EAD (2024)</figcaption>
 
-                
-                <table class="align-middle print visually-hidden"  style="border: 2px solid black; border-collapse: collapse;">
+                <div class="table-responsive visually-hidden">
+                  <table class="align-middle print "  style="border: 2px solid black; border-collapse: collapse;">
                   <thead>
                     <tr class="tabela-serie">
                       <td style="border: 2px solid black; border-collapse: collapse;">Indicador:</td>
                       <td colspan="12" style="border: 2px solid black; border-collapse: collapse;">% de satisfação do cliente – 2024</td>
                     </tr>
                   </thead>
+                  <tbody>
+                    <tr>
+                      <td style="border: 2px solid black; border-collapse: collapse;">Mês</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Janeiro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Fevereiro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Março</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Abril</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Maio</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Junho</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Julho</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Agosto</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Setembro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Outubro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Novembro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Dezembro</td>
+                    </tr>
+                  </tbody>
                   <tr>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Mês</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Janeiro</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Fevereiro</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Março</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Abril</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Maio</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Junho</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Julho</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Agosto</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Setembro</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Outubro</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Novembro</td>
-                  <td style="border: 2px solid black; border-collapse: collapse;">Dezembro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Mês</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Janeiro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Fevereiro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Março</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Abril</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Maio</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Junho</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Julho</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Agosto</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Setembro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Outubro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Novembro</td>
+                    <td style="border: 2px solid black; border-collapse: collapse;">Dezembro</td>
                   </tr>
                   <tr>
                     <td style="border: 2px solid black; border-collapse: collapse;">Número de satisfeitos</td>
@@ -935,8 +952,9 @@
                     <td style="border: 2px solid black; border-collapse: collapse;"></td>
                     <td style="border: 2px solid black; border-collapse: collapse;"></td>
                   </tr>
-                </table>
-                <figcaption class="figure-caption text-center print visually-hidden" >Série histórica mensal<br> Fonte: Senac EAD (2024)</figcaption>
+              </table>
+              <figcaption class="figure-caption text-center print visually-hidden" >Série histórica mensal<br> Fonte: Senac EAD (2024)</figcaption>
+            </div>
 
                 <div class="table-responsive no-print">
                   <table class="align-middle">
@@ -1147,7 +1165,7 @@
                           </div>
                       </div>
               
-                      <!-- Modal -->
+                      modal
                       <div class="modal fade associar_colunas_modal  no-print nao-imprimir" id="associar_colulas_errou" tabindex="-1"
                           aria-labelledby="associarColunasErrou" aria-hidden="true">
                           <div class="modal-dialog modal-dialog-centered">
@@ -1169,7 +1187,7 @@
                               </div>
                           </div>
                       </div>
-                      <!-- Modal -->
+                     
                       <div class="modal fade associar_colunas_modal no-print nao-imprimir" id="associar_colulas_acertou"
                           tabindex="-1" aria-labelledby="associarColunasAcertou" aria-hidden="true">
                           <div class="modal-dialog modal-dialog-centered">
@@ -1193,44 +1211,19 @@
                       </div>
               
                   </div>
-                  <!-- Versão para impressão
-                  <div class="print-only only-print">
-                      <p>Associe a primeira coluna com a segunda.</p>
-                      <table class="associe-colunas">
-                          <tr>
-                              <td>
-                                  <p>A) GERMÂNIO</p>
-                                  <p>B) TUNGSTÊNIO</p>
-                                  <p>C) LÍTIO</p>
-                                  <p>D) SÓDIO</p>
-                                  <p>E) POTÁSSIO</p>
-                                  <p>F) CÁLCIO</p>
-                                  <p>G) CLORO</p>
-                                  <p>H) CARBONO</p>
-                              </td>
-                              <td>
-                                  <p>(&nbsp;&nbsp;) FRUTAS E VEGETAIS</p>
-                                  <p>(&nbsp;&nbsp;) CONCHAS E OSSOS</p>
-                                  <p>(&nbsp;&nbsp;) PISCINAS</p>
-                                  <p>(&nbsp;&nbsp;) SEMICONDUTORES ELETRÔNICOS</p>
-                                  <p>(&nbsp;&nbsp;) BASE DAS MOLÉCULAS DA VIDA</p>
-                                  <p>(&nbsp;&nbsp;) SAL</p>
-                                  <p>(&nbsp;&nbsp;) FILAMENTO DE LÂMPADAS</p>
-                                  <p>(&nbsp;&nbsp;) BATERIAS</p>
-                              </td>
-                          </tr>
-                      </table>
-                  </div> -->
+                  
+                  
                 </div>
               </div>
               
-          </div>
+            </div>
+          
 
 
 
 
-          <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
-
+            
+            <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
           </div>
           
         </section>
@@ -1256,7 +1249,7 @@
          <script src="../assets/js/geral.js"></script>
          <script src="../assets/atividades/relacionar_colunas/relacionar-colunas.js"></script>
 
-      <script>
+      <!-- <script>
           var splide = new Splide( '.splide', {
               type   : 'slide',
               perPage: 2,
@@ -1265,7 +1258,7 @@
           } );
 
           splide.mount();
-      </script>
+      </script> -->
 
       <script>
         $(function() {
