@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="pt-br">
     <head>
         <!-- Inserir o tíutlo do conhecimento na tag title -->
@@ -332,9 +331,9 @@
                             </p>
                         </div>
                     </div>
-                    <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
                 </div>
             </section>
+            <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
             <!-- Paginação-->
             <footer class="text-center no-print d-flex justify-content-center mx-auto">
                 <ul class="pagination">
@@ -356,9 +355,8 @@
         <script src="../assets/js/geral.js"></script>
 
         <script>
-            $(function() {
-                $("body").prognroll();
-            });
+            
+
             $(".btn-tema_pagina").click(function () {
                 console.log($(".btn-tema_pagina"))
                 if ($("body").hasClass('bg-claro')) {
@@ -370,6 +368,12 @@
                     $("body").removeClass('bg-escuro')
                     $("body").addClass("bg-claro")
                 }
+            });
+        </script>
+
+        <script>
+            $(function () {
+                $("body").prognroll();
             });
         </script>
 
