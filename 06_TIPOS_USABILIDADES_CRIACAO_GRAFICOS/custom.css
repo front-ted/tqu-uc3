@@ -25,3 +25,9 @@
     }
 
 }
+
+@media screen and (max-width:500px) {
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+}

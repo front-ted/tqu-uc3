@@ -35,3 +35,27 @@
 .destaque {
     margin: 50px auto;
 }
+
+.fracao{
+    text-align: center;
+}
+.fracao hr{
+    width: 70%;
+    margin: 6px auto;
+    height: 2px;
+    background-color: #222;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 820px){
+    .fracao hr{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .fracao hr{
+        width: 100%;
+    }
+}
