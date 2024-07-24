@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Árvore de indicadores</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fa/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="conteudo m-1">
+    <div class="imagens position-relative">
+
+      <div class="bg position-absolute">
+        <img src="assets/img/original/fundo.png" class="img-fluid" alt="fundo amarelo imagem">
+      </div>
+
+      <div class="nuvens">
+        <img src="assets/img/nuvem.png" id="nuvem-um" class="img-fluid position-absolute" alt="ilustração nuvens">
+        <img src="assets/img/nuvem2.png" id="nuvem-dois" class="img-fluid position-absolute" alt="ilustração nuvens">
+        <img src="assets/img/nuvem.png" id="nuvem-tres" class="img-fluid position-absolute" alt="ilustração nuvens">
+        <img src="assets/img/nuvem2.png" id="nuvem-quatro" class="img-fluid position-absolute" alt="ilustração nuvens">
+      </div>
+
+      <div class="arvore position-absolute"></div>
+      <div class="troco position-absolute">
+        <img src="assets/img/original/chao_tronco.png" class="img-fluid" alt="ilustração tronco da árvore">
+      </div>
+
+      <div class="d-none folhas-quatro position-absolute">
+        <img src="assets/img/original/folhas04.png" class="img-fluid" alt="ilustração folhas da árvore">
+      </div>
+      <div class="d-none folhas-dois position-absolute">
+        <img src="assets/img/original/folhas02.png" class="img-fluid" alt="ilustração folhas da árvore">
+      </div>
+      <div class="d-none folhas-um position-absolute">
+        <img src="assets/img/original/folhas01.png" class="img-fluid" alt="ilustração folhas da árvore">
+      </div>
+      <div class="d-none folhas-tres position-absolute">
+        <img src="assets/img/original/folhas03.png" class="img-fluid" alt="ilustração folhas da árvore">
+      </div>
+      <div class="d-none frutos position-absolute">
+        <img src="assets/img/original/frutas05.png" class="img-fluid" alt="ilustração frutos da árvore">
+      </div>
+    </div>
+
+    <div class="texto-body">
+      <div class="categorias">
+        <h3 class="title-categoria position-absolute" id="nivel-um">Estratégico</h3>
+        <h3 class="title-categoria position-absolute" id="nivel-dois">Tático</h3>
+        <h3 class="title-categoria position-absolute" id="nivel-tres">Operacional</h3>
+      </div>
+
+      <div class="opcoes col position-absolute">
+        <h3 class="info">Clique e arraste as opções:</h3>
+        <div data-resp="m" class="drag-item drag-item-m" draggable="true">Retorno sobre o investimento (ROI)
+          <strong>Meta +15%</strong>
+        </div>
+        <div data-resp="n" class="drag-item drag-item-n" draggable="true">Faturamento <strong>Meta +20%</strong> </div>
+        <div data-resp="n" class="drag-item drag-item-o" draggable="true">Margem de lucro <strong>Meta +10% </strong>
+        </div>
+        <div data-resp="p" class="drag-item drag-item-p" draggable="true">Total de clientes <strong>Meta +15%</strong>
+        </div>
+        <div data-resp="p" class="drag-item drag-item-q" draggable="true">Ticket médio <strong>Meta +10%</strong></div>
+        <div data-resp="p" class="drag-item drag-item-r" draggable="true">Despesas/faturamento <strong>Meta -7%</strong>
+        </div>
+        <div data-resp="p" class="drag-item drag-item-s" draggable="true">Custo da mercadoria/vendas <strong>Meta
+            -10%</strong></div>
+      </div>
+
+      <div class="espacos position-absolute">
+        <div data-resp="m" class="espaco-item position-absolute item item1"> </div>
+        <div data-resp="n" class="espaco-item position-absolute item item2"> </div>
+        <div data-resp="n" class="espaco-item position-absolute item item3"> </div>
+        <div data-resp="p" class="espaco-item position-absolute item item4"> </div>
+        <div data-resp="p" class="espaco-item position-absolute item item5"> </div>
+        <div data-resp="p" class="espaco-item position-absolute item item6"> </div>
+        <div data-resp="p" class="espaco-item position-absolute item item7"> </div>
+      </div>
+
+    </div>
+
+    <div class="accordion intro-frases-encaixa position-absolute w-100" id="accordionIntroducao">
+      <div class="accordion-item">
+        <h2 class="accordion-header title-encaixa-frase">
+          Árvore de indicadores
+        </h2>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="modalIntro" tabindex="-1" aria-labelledby="modalintro-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalFeedbackPositivoLabel">Bem-vindo a Árvore de Indicadores!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="p-1">Agora que você já compreendeu os conceitos, as características e os exemplos dos indicadores
+            de nível estratégico, tático e operacional, que tal colocar em prática seus conhecimentos por meio da
+            árvore de indicadores que está disponível a seguir?
+            <br><br> Nesta atividade, <strong>analise os indicadores</strong> na base da árvore e posicione cada um
+            deles nos espaços corretos, em cada um dos níveis: <strong>estratégico, tático</strong> ou
+            <strong>operacional</strong>. <br>
+            Você estará ajudando a nutrir a nossa árvore de indicadores.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalFeedbackPositivo" tabindex="-1" aria-labelledby="modalFeedbackPositivoLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalFeedbackPositivoLabel">Tarefa concluída com sucesso!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Parabéns por sua participação e dedicação na atividade interativa da árvore de indicadores!</p> <br>
+          <div class="row">
+            <p class="col">Você compreendeu perfeitamente os conceitos de nível estratégico, tático e operacional e
+              demonstrou habilidade em aplicá-los de forma precisa e organizada.
+            </p>
+            <img src="assets/img/arvore-modal.png" class="img-fluid col" alt="ilustração árvore">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <audio id="audio-acerto">
+    <source src="assets/audio/acerto.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="audio-errado">
+    <source src="assets/audio/erro.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- força o usuário a virar a tela do celular -->
+
+  <div class="modo-smart">
+    <div class="text-center">
+      <p class="p-paisagem text-center">
+        <img src="assets/img/vire.gif" class="img-fluid img-paisagem d-inline-block"
+          alt="gif: celular vira para o modo paisagem"><br>
+        <strong>Por favor, gire o aparelho para o modo paisagem.</strong>
+      </p>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script>
+    $(function () {
+      $("#modalIntro").modal("show");
+    });
+  </script>
+</body>
+
+</html>

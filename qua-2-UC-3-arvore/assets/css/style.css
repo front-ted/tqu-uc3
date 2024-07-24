@@ -1,0 +1,258 @@
+.conteudo {
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+    left: calc(50% - 1920px / 2);
+    top: calc(50% - 1080px / 2);
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.intro-frases-encaixa {
+    background-color: #F2E49B !important;
+    font-size: 24px;
+    color: #025940;
+}
+
+.info {
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.title-encaixa-frase {
+    background-color: #F2E49B !important;
+    color: #025940;
+    font-weight: bold;
+    text-align: center !important;
+    border: 1px solid #F2E49B;
+    font-size: 35px !important;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title-categoria {
+    background-color: #025940;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 33px;
+    text-transform: uppercase;
+    width: 350px;
+    padding: 1%;
+    box-shadow: 5px 5px 5px #000000c4;
+}
+
+@keyframes effect {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    25% {
+        transform: scale(1.3, 0.6);
+    }
+
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.animated {
+    animation: effect 0.6s ease-out;
+}
+
+@keyframes movimentoNuvem {
+    from {
+        transform: translateX(100vw);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.nuvens img {
+    animation: movimentoNuvem 120s linear infinite;
+}
+
+#nuvem-um {
+    width: 356px;
+    left: 131px;
+    top: 86px;
+    animation-delay: 1s;
+}
+
+#nuvem-dois {
+    width: 365px;
+    left: 331px;
+    top: 179px;
+    animation-delay: 3s;
+}
+
+#nuvem-tres {
+    width: 268px;
+    left: 790px;
+    top: 160px;
+    animation-delay: 4s;
+}
+
+#nuvem-quatro {
+    width: 365px;
+    left: 600px;
+    top: 499px;
+    animation-delay: 5s;
+}
+
+#nivel-um {
+    top: 173px;
+    left: 770px;
+}
+
+#nivel-dois {
+    top: 394px;
+    left: 770px;
+}
+
+#nivel-tres {
+    top: 612px;
+    left: 770px;
+}
+
+.drag-item {
+    padding: 5px;
+    text-align: center;
+    line-height: 33px;
+    cursor: move;
+    border-radius: 10px;
+    margin: 1%;
+    background-color: #fff;
+    color: #006454;
+    font-size: 33px;
+}
+
+.drag-item:hover {
+    background-color: #b5d4ee;
+    color: #925655;
+}
+
+.opcoes.col.position-absolute {
+    top: 123px;
+    left: 16px;
+    background-color: #006454;
+    padding: 2px;
+    border-radius: 20px;
+    max-width: 540px;
+}
+
+.item {
+    background-color: white;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: #333;
+    align-content: center;
+    gap: 10px;
+    align-items: center;
+    font-weight: bold;
+    border: 2px dashed #925655;
+    margin: 1%;
+    font-size: 33px;
+}
+
+.item p {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 33px;
+}
+
+.espaco-item {
+    width: 390px;
+    height: 125px;
+}
+
+.item1 {
+    top: 254px;
+    left: 747px;
+}
+
+.item2 {
+    top: 476px;
+    left: 574px;
+}
+
+.item3 {
+    top: 476px;
+    left: 975px;
+}
+
+.item4 {
+    top: 698px;
+    left: 145px;
+}
+
+.item5 {
+    top: 698px;
+    left: 542px;
+}
+
+.item6 {
+    top: 698px;
+    left: 941px;
+}
+
+.item7 {
+    top: 698px;
+    left: 1341px;
+}
+
+.modal-header {
+    background-color: #006454;
+    color: white;
+}
+
+.modal-body {
+    color: #006454;
+    font-size: 18px;
+}
+
+
+/**********************************************************************/
+/***************************** vire o celular *************************/
+/**********************************************************************/
+
+.p-paisagem {
+    color: white;
+    text-align: center;
+}
+
+.img-paisagem {
+    max-width: 70% !important;
+    height: auto;
+    display: block;
+}
+
+@media only screen and (orientation: portrait) {
+    .modo-smart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #006454;
+        z-index: 9999999999999999999;
+    }
+}
