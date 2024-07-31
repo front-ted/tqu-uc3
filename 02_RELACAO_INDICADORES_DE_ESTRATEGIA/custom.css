@@ -102,6 +102,11 @@
 
 } 
 
+
+.selo{
+    display: flex;
+}
+
 .btn-oda {
     text-decoration: none;
     display: flex;
